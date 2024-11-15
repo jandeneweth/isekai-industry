@@ -1,0 +1,11 @@
+{
+  "name" : "Isekai Industry",
+  "id" : "com.github.isekai-industry",
+  "version" : "0.1.0",
+  "game_id" : "victoria3",
+  "supported_game_version" : "1.7.*", 
+  "short_description" : "Reborn into the past, time travellers influence the Medieval age.",
+  "tags" : ["alternative_history"],
+  "relationships" : [],                 
+  "game_custom_data" : {}
+}
