@@ -20,5 +20,6 @@ cp -rT ${STATIC_DIR}/additions ${BUILD_MOD_DIR}
 cp -rT ${STATIC_DIR}/metadata ${BUILD_MOD_DIR}
 
 # Run scripts
-python ${SCRIPT_DIR}/update_countries.py ${BUILD_MOD_DIR}
+python ${SCRIPT_DIR}/update_country_histories.py ${BUILD_MOD_DIR}
+python ${SCRIPT_DIR}/update_country_definitions.py ${BUILD_MOD_DIR}
 python ${SCRIPT_DIR}/update_pops.py ${BUILD_MOD_DIR}

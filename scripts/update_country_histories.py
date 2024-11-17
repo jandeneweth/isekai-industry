@@ -10,7 +10,7 @@ import pathlib
 def main():
     mod_dir = pathlib.Path(sys.argv[1])
     country_history_dir = mod_dir / "common" / "history" / "countries"
-    print(f"Updating countries in {str(country_history_dir)}")
+    print(f"Updating country histories in {str(country_history_dir)}")
 
     for countryfile in country_history_dir.iterdir():
         if str(countryfile).startswith('.'):
