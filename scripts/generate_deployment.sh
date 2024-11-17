@@ -16,3 +16,6 @@ rm -rf ${BUILD_DIR}/*
 # Copy the static files, layering overwrites
 cp -rT ${STATIC_DIR}/converted ${BUILD_MOD_DIR}
 cp -rT ${STATIC_DIR}/metadata ${BUILD_MOD_DIR}
+
+# Run scripts
+python ${SCRIPT_DIR}/update_countries.py ${BUILD_MOD_DIR}
