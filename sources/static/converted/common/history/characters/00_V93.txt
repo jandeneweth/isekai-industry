@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V93 = {
+		create_character = {
+			first_name = "Bahabu"
+			last_name = "Udege"
+			ruler = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1424.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

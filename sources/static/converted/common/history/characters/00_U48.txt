@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U48 = {
+		create_character = {
+			first_name = "Cristoph_Meyer"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1391.11.11
+			traits = {
+				cruel experienced_political_operator 
+			}
+		}
+
+	}
+}

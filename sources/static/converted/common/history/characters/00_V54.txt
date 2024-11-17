@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V54 = {
+		create_character = {
+			first_name = "Daygham_bin_Khasram"
+			last_name = "Husaynid"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1424.5.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

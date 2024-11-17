@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:PAT = {
+		create_character = {
+			first_name = "Nampai_Lonko"
+			ruler = yes
+			culture = cu:patagonian
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

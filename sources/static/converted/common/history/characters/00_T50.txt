@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T50 = {
+		create_character = {
+			first_name = "Charles_Miller"
+			ruler = yes
+			culture = cu:alemannic
+			religion = rel:catholic
+			birth_date = 1410.11.11
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+	}
+}

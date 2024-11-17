@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HAW = {
+		create_character = {
+			first_name = "Kihanuilulumoku"
+			last_name = "Ha_aheo"
+			ruler = yes
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_political_operator reserved 
+			}
+		}
+
+	}
+}

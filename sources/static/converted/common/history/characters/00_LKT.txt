@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:LKT = {
+		create_character = {
+			first_name = "Tetekarmunch_Sihasapa"
+			ruler = yes
+			culture = cu:dakota
+			religion = rel:animist
+			birth_date = 1423.11.11
+		}
+
+	}
+}

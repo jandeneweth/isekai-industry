@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X46 = {
+		create_character = {
+			first_name = "Hidayatullah_I"
+			last_name = "Burnei"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:hindu
+			birth_date = 1424.11.11
+			traits = {
+				basic_diplomat honorable 
+			}
+		}
+
+	}
+}

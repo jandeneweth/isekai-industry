@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:APC = {
+		create_character = {
+			first_name = "Nahtan_Jicarilla"
+			ruler = yes
+			culture = cu:apache
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+	}
+}

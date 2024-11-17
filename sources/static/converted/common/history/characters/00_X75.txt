@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X75 = {
+		create_character = {
+			first_name = "Tasyah_Yamel"
+			ruler = yes
+			culture = cu:penutian
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

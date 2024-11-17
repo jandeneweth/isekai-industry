@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U72 = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Tabangut"
+			ruler = yes
+			culture = cu:evenk
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1396.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CHI = {
+		create_character = {
+			first_name = "Qiyu"
+			last_name = "Zhu"
+			heir = yes
+			culture = cu:han
+			religion = rel:confucian
+			birth_date = 1428.9.21
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Qizhen"
+			last_name = "Zhu"
+			ruler = yes
+			culture = cu:han
+			religion = rel:confucian
+			birth_date = 1417.1.31
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

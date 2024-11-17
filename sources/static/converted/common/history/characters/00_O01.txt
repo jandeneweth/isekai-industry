@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:O01 = {
+		create_character = {
+			first_name = "Qhihiramaki_Koholo"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

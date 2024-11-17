@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MKT = {
+		create_character = {
+			first_name = "Ahpop-Achi_Ahmok"
+			ruler = yes
+			culture = cu:miskito
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

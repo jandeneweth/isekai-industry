@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SLS = {
+		create_character = {
+			first_name = "Lugsken_Stillaguamish"
+			ruler = yes
+			culture = cu:salish
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

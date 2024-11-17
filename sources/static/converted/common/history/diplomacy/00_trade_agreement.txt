@@ -1,0 +1,38 @@
+﻿DIPLOMACY = {
+	c:V89 = {
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = trade_agreement
+		}
+	}
+	c:U50 = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = trade_agreement
+		}
+	}
+	c:BRE = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = trade_agreement
+		}
+	}
+	c:HAM = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = trade_agreement
+		}
+	}
+	c:OLD = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = trade_agreement
+		}
+	}
+	c:U62 = {
+		create_diplomatic_pact = {
+			country = c:T78
+			type = trade_agreement
+		}
+	}
+}

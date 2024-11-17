@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U75 = {
+		create_character = {
+			first_name = "Bir"
+			last_name = "Plassia"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1422.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

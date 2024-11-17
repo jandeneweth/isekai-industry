@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:PWN = {
+		create_character = {
+			first_name = "Tearilari_Tukistkita"
+			ruler = yes
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1426.11.11
+		}
+
+	}
+}

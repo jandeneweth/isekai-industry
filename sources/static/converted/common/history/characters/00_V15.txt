@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V15 = {
+		create_character = {
+			first_name = "Henggi_Beich"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1412.11.11
+			traits = {
+				basic_colonial_administrator cruel 
+			}
+		}
+
+	}
+}

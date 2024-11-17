@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X70 = {
+		create_character = {
+			first_name = "Shongemonetoeahca_Degataga"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

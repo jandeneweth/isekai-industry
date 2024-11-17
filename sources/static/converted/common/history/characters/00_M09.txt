@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:M09 = {
+		create_character = {
+			first_name = "Yesno_O-pipon-na-piwin"
+			ruler = yes
+			culture = cu:cree
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:COM = {
+		create_character = {
+			first_name = "Pochanawquoip_Jupe"
+			ruler = yes
+			culture = cu:paiute
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

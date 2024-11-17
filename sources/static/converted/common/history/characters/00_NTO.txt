@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NTO = {
+		create_character = {
+			first_name = "Hunu_I"
+			last_name = "Ngapuhi"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

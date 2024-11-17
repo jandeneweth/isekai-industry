@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V23 = {
+		create_character = {
+			first_name = "Sanau_I"
+			last_name = "Azna"
+			ruler = yes
+			culture = cu:hausa
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

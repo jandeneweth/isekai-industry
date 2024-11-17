@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:C03 = {
+		create_character = {
+			first_name = "Teshuhenochloch_Yazoo"
+			ruler = yes
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1423.11.11
+		}
+
+	}
+}

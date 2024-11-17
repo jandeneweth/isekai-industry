@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BOR = {
+		create_character = {
+			first_name = "Dunama"
+			last_name = "Sayfawa"
+			heir = yes
+			culture = cu:kanuri
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Kadai"
+			last_name = "Sayfawa"
+			ruler = yes
+			culture = cu:kanuri
+			religion = rel:sunni
+			birth_date = 1419.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

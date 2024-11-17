@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			first_name = "Christoph_Gruneisen"
+			ruler = yes
+			culture = cu:alemannic
+			religion = rel:catholic
+			birth_date = 1388.11.11
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T64 = {
+		create_character = {
+			first_name = "Rapata_I"
+			last_name = "Muriwhenua"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:W01 = {
+		create_character = {
+			first_name = "Wequash_Oneco"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+		}
+
+	}
+}

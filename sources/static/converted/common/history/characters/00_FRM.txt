@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:FRM = {
+		create_character = {
+			first_name = "Raphael_Gohler"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1401.11.11
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

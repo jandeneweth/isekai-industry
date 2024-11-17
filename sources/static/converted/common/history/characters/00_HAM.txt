@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:HAM = {
+		create_character = {
+			first_name = "Viktor_Backer"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1392.11.11
+			traits = {
+				arrogant basic_diplomat 
+			}
+		}
+
+	}
+}

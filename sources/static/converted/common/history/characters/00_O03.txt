@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:O03 = {
+		create_character = {
+			first_name = "Kaviu_Sobaipuri"
+			ruler = yes
+			culture = cu:oodham
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

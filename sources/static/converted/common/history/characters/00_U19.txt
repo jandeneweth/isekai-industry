@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U19 = {
+		create_character = {
+			first_name = "Shaawrunthe_Tondakhra"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

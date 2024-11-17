@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W25 = {
+		create_character = {
+			first_name = "Lalyurva_Thakiwakie"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}
