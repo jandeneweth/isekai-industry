@@ -23,6 +23,8 @@ def main():
             fh.write(full_text)
 
 VALID_STARTING_TECHS = [
+    # Economy
+    "enclosure",
     # Military
     "navigation",
     "standing_army",
@@ -31,6 +33,7 @@ VALID_STARTING_TECHS = [
     "bureaucracy",
     "international_trade",
     "international_relations",
+    "rationalism",
 ]
 
 def _filter_line(line: str) -> bool:
@@ -42,16 +45,46 @@ def _filter_line(line: str) -> bool:
     return True
 
 PATTENR_REPLACEMENT_LIST = [
-    (re.compile("law_type:law_homesteading"), "law_type:law_tenant_farmers"),
+    # Power structure
+    (re.compile("law_type:law_parliamentary_republic"), "law_type:law_presidential_republic"),
+    (re.compile("law_type:law_council_republic"), "law_type:law_presidential_republic"),
 
     (re.compile("law_type:law_landed_voting"), "law_type:law_oligarchy"),
+    (re.compile("law_type:law_wealth_voting"), "law_type:law_oligarchy"),
+    (re.compile("law_type:law_census_voting"), "law_type:law_oligarchy"),
+    (re.compile("law_type:law_universal_suffrage"), "law_type:law_oligarchy"),
+    (re.compile("law_type:law_anarchy"), "law_type:law_oligarchy"),
+    (re.compile("law_type:law_single_party_state"), "law_type:law_oligarchy"),
+
+    (re.compile("law_type:law_total_separation"), "law_type:law_freedom_of_conscience"),
+    (re.compile("law_type:law_state_atheism"), "law_type:law_freedom_of_conscience"),
+
+    (re.compile("law_type:law_national_militia"), "law_type:law_peasant_levies"),
+    (re.compile("law_type:law_mass_conscription"), "law_type:law_professional_army"),
+
+    (re.compile("law_type:law_national_guard"), "law_type:law_no_home_affairs"),
+    (re.compile("law_type:law_secret_police"), "law_type:law_no_home_affairs"),
+    (re.compile("law_type:law_guaranteed_liberties"), "law_type:law_no_home_affairs"),
+
+    # Economy
+
+    (re.compile("law_type:law_interventionism"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_agrarianism"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_industry_banned"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_laissez_faire"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_cooperative_ownership"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_command_economy"), "law_type:law_traditionalism"),
 
     (re.compile("law_type:law_protectionism"), "law_type:law_mercantilism"),
     (re.compile("law_type:law_free_trade"), "law_type:law_mercantilism"),
 
-    (re.compile("law_type:law_interventionism"), "law_type:law_traditionalism"),
-    (re.compile("law_type:law_interventionism"), "law_type:law_traditionalism"),
-    (re.compile("law_type:law_interventionism"), "law_type:law_traditionalism"),
+    (re.compile("law_type:law_per_capita_based_taxation"), "law_type:law_consumption_based_taxation"),
+    (re.compile("law_type:law_proportional_taxation"), "law_type:law_land_based_taxation"),
+    (re.compile("law_type:law_graduated_taxation"), "law_type:law_land_based_taxation"),
+    
+    (re.compile("law_type:law_commercialized_agriculture"), "law_type:law_tenant_farmers"),
+    (re.compile("law_type:law_homesteading"), "law_type:law_tenant_farmers"),
+    (re.compile("law_type:law_collectivized_agriculture"), "law_type:law_tenant_farmers"),
 
     (re.compile("law_type:law_local_police"), "law_type:law_no_police"),
     (re.compile("law_type:law_dedicated_police"), "law_type:law_no_police"),
@@ -60,6 +93,12 @@ PATTENR_REPLACEMENT_LIST = [
     (re.compile("law_type:law_religious_schools"), "law_type:law_no_schools"),
     (re.compile("law_type:law_private_schools"), "law_type:law_no_schools"),
     (re.compile("law_type:law_public_schools"), "law_type:law_no_schools"),
+
+    # Human Rights
+
+    (re.compile("law_type:law_outlowed_dissent"), "law_type:law_right_of_assembly"),
+    (re.compile("law_type:law_censorship"), "law_type:law_right_of_assembly"),
+    (re.compile("law_type:law_protected_speech"), "law_type:law_right_of_assembly"),
 ]
 
 def _replace_line(line: str) -> str:
