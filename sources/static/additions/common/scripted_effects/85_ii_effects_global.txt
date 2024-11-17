@@ -1,0 +1,8 @@
+﻿isekai_industry_global_effect = {
+    every_country = {
+        limit = {
+            NOT = { has_technology_researched = medieval_society }
+        }
+        add_technology_researched = medieval_society
+    }
+}

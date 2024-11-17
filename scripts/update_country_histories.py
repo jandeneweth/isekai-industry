@@ -33,7 +33,6 @@ VALID_STARTING_TECHS = [
     "bureaucracy",
     "international_trade",
     "international_relations",
-    "rationalism",
 ]
 
 def _filter_line(line: str) -> bool:
@@ -56,8 +55,9 @@ PATTENR_REPLACEMENT_LIST = [
     (re.compile("law_type:law_anarchy"), "law_type:law_oligarchy"),
     (re.compile("law_type:law_single_party_state"), "law_type:law_oligarchy"),
 
-    (re.compile("law_type:law_total_separation"), "law_type:law_freedom_of_conscience"),
-    (re.compile("law_type:law_state_atheism"), "law_type:law_freedom_of_conscience"),
+    (re.compile("law_type:law_freedom_of_conscience"), "law_type:law_state_religion"),
+    (re.compile("law_type:law_total_separation"), "law_type:law_state_religion"),
+    (re.compile("law_type:law_state_atheism"), "law_type:law_state_religion"),
 
     (re.compile("law_type:law_national_militia"), "law_type:law_peasant_levies"),
     (re.compile("law_type:law_mass_conscription"), "law_type:law_professional_army"),

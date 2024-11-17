@@ -1,0 +1,463 @@
+﻿law_autocracy = {	
+	group = lawgroup_distribution_of_power
+	
+	icon = "gfx/interface/icons/law_icons/autocracy.dds"
+	
+	progressiveness = -100
+	
+	# Has major legitimacy issues with parliamentary republic, they should be oligarchy instead
+	disallowing_laws = {
+		law_parliamentary_republic
+	}
+
+	on_activate = {
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
+		scripted_effect_parties_disappearence = yes
+		clear_legal_single_party = yes
+		if = {
+			limit = {
+				has_modifier = missouri_compromise
+			}
+			remove_modifier = missouri_compromise
+		}
+	}
+
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.10  # ADDED
+		state_tax_waste_add = 0.1  # ADDED
+		country_legitimacy_headofstate_add = 30
+		country_legitimacy_govt_total_clout_add = 120
+		country_legitimacy_ideological_incoherence_mult = 0.5
+		country_aristocrats_pol_str_mult = 0.5
+		country_officers_pol_str_mult = 0.5
+		country_authority_add = 200
+	}
+	
+	possible_political_movements = {
+		law_oligarchy
+		law_landed_voting
+		law_elder_council
+		law_technocracy
+		law_single_party_state
+	}
+
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_distribution_of_power_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_ARISTOCRATS"			
+			if = {
+				limit = {
+					owner = {
+						NOT = { has_law = law_type:law_oligarchy }
+					}
+					is_pop_type = aristocrats
+				}
+				value = 0.25
+			}
+		}
+		add = {
+			desc = "POP_OFFICIERS"			
+			if = {
+				limit = {
+					is_pop_type = officers
+				}
+				value = 0.25
+			}
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+	
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_autocracy
+				OR = {
+					AND = {
+						power_bloc ?= { has_identity = identity:identity_ideological_union }
+						has_strategy = ai_strategy_conservative_agenda					
+					}
+					has_strategy = ai_strategy_reactionary_agenda
+				}
+				scope:target_country = { 
+					NOR = { # Is their law different enough from what we want to impose?
+						has_law = law_type:law_oligarchy
+						has_law = law_type:law_landed_voting
+					}
+				}
+			}
+			
+			add = base_impose_law_weight
+		}
+	}
+}
+
+law_oligarchy = {
+	group = lawgroup_distribution_of_power
+	
+	icon = "gfx/interface/icons/law_icons/oligarchy.dds"
+	
+	progressiveness = -50
+
+	on_activate = {
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
+		scripted_effect_parties_disappearence = yes
+		clear_legal_single_party = yes
+		if = {
+			limit = {
+				has_modifier = missouri_compromise
+			}
+			remove_modifier = missouri_compromise
+		}
+	}
+	
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.10  # ADDED
+		state_tax_waste_add = 0.1  # ADDED
+		country_legitimacy_headofstate_add = 10
+		country_legitimacy_govt_total_clout_add = 120
+		country_legitimacy_govt_size_add = 2
+		country_legitimacy_ideological_incoherence_mult = -0.1
+		country_aristocrats_pol_str_mult = 0.5
+		country_capitalists_pol_str_mult = 0.25
+		country_authority_add = 100
+	}
+	
+	possible_political_movements = {
+		law_autocracy 
+		law_landed_voting
+		law_elder_council
+		law_technocracy
+		law_single_party_state
+	}
+
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_distribution_of_power_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_ARISTOCRATS"			
+			if = {
+				limit = {
+					owner = {
+						NOT = { has_law = law_type:law_autocracy }
+					}
+					is_pop_type = aristocrats
+				}
+				value = 0.25
+			}
+		}
+		add = {
+			desc = "POP_CAPITALISTS"			
+			if = {
+				limit = {
+					owner = {
+						NOT = { has_law = law_type:law_wealth_voting }
+					}
+					is_pop_type = capitalists
+				}
+				value = 0.25
+			}
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+	
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_oligarchy
+				OR = {
+					AND = {
+						power_bloc ?= { has_identity = identity:identity_ideological_union }
+						has_strategy = ai_strategy_conservative_agenda					
+					}
+					has_strategy = ai_strategy_reactionary_agenda
+				}
+				scope:target_country = { 
+					NOR = { # Is their law different enough from what we want to impose?
+						has_law = law_type:law_autocracy
+						has_law = law_type:law_landed_voting
+					}
+				}
+			}
+			
+			add = base_impose_law_weight
+		}
+	}		
+}
+
+law_elder_council = {
+	group = lawgroup_distribution_of_power
+	
+	icon = "gfx/interface/icons/law_icons/elder_council.dds"
+	
+	progressiveness = -25
+
+	unlocking_laws = {
+		law_chiefdom
+	}
+
+	is_visible = {
+		is_country_type = decentralized
+	}
+	
+	on_activate = {
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
+		scripted_effect_parties_disappearence = yes
+		clear_legal_single_party = yes
+		if = {
+			limit = {
+				has_modifier = missouri_compromise
+			}
+			remove_modifier = missouri_compromise
+		}
+	}
+
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.10  # ADDED
+		state_tax_waste_add = 0.1  # ADDED
+		country_legitimacy_base_add = 20
+		country_legitimacy_govt_total_clout_add = 100
+		country_legitimacy_govt_size_add = 2
+		country_legitimacy_ideological_incoherence_mult = -0.1
+		country_aristocrats_pol_str_mult = 0.5
+		country_officers_pol_str_mult = 0.5
+		country_clergymen_pol_str_mult = 0.5
+		country_authority_add = 200
+	}
+	
+	possible_political_movements = {
+		law_autocracy 
+		law_oligarchy
+		law_landed_voting
+	}
+
+	pop_support = {
+		value = 0
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_landed_voting = {
+	group = lawgroup_distribution_of_power
+	
+	icon = "gfx/interface/icons/law_icons/landed_voting.dds"
+	
+	progressiveness = -25
+
+	unlocking_technologies = {
+		democracy
+	}
+
+	disallowing_laws = {
+		law_chiefdom
+		law_command_economy
+	}
+
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.05  # ADDED
+		state_tax_waste_add = 0.05  # ADDED
+		country_legitimacy_govt_total_votes_add = 40
+		country_legitimacy_govt_total_clout_add = 100
+		country_legitimacy_govt_size_add = 1
+		country_legitimacy_ideological_incoherence_mult = 0.2
+		country_aristocrats_voting_power_add = 50
+		country_officers_voting_power_add = 25
+		country_clergymen_voting_power_add = 25
+		country_capitalists_voting_power_add = 25
+		country_authority_add = 100
+	}
+	
+	possible_political_movements = {
+		law_oligarchy
+		law_autocracy 
+		law_wealth_voting
+		law_census_voting
+		law_technocracy
+		law_single_party_state
+	}
+
+	on_activate = {
+		scripted_effect_parties_emergence = yes
+		clear_legal_single_party = yes
+	}
+	
+	can_impose = {
+		country_has_voting_franchise = yes # modification of the standard trigger, only countries with a voting franchise can impose democracy on others
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_distribution_of_power_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	
+	pop_support = {
+		value = 0
+
+		add = {
+			desc = "POP_LITERACY" 
+			
+			if = {
+				limit = { 
+					OR = {
+						NOT = { strata = rich }
+						wealth < 30
+					}					
+					owner = { 
+						NOR = {
+							has_law = law_type:law_wealth_voting
+							has_law = law_type:law_census_voting
+							has_law = law_type:law_universal_suffrage
+							has_law = law_type:law_anarchy
+						}	
+					}
+				}
+				add = {
+					value = literacy_rate
+					divide = 2
+				}
+			}
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+	
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_landed_voting
+				OR = {
+					AND = {
+						power_bloc ?= { has_identity = identity:identity_ideological_union }
+						has_strategy = ai_strategy_conservative_agenda					
+					}
+					has_strategy = ai_strategy_reactionary_agenda
+				}
+				scope:target_country = { 
+					NOR = { # Is their law different enough from what we want to impose?
+						has_law = law_type:law_oligarchy
+						has_law = law_type:law_autocracy
+					}
+				}
+			}
+			
+			add = base_impose_law_weight
+		}
+	}		
+}

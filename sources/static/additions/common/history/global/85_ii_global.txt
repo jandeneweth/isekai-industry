@@ -1,0 +1,3 @@
+﻿GLOBAL = {
+	isekai_industry_global_effect = yes
+}
