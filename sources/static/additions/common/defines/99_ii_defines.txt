@@ -1,0 +1,5 @@
+NPops = {
+    LOYALTIES_GAIN_GRACE_PERIOD = "1454.11.11"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
+}
+
+@pop_growth_equilibrium_sol = 4		# Equilibrium is pops stop starving and where growth first becomes positive
