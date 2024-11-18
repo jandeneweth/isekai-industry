@@ -1,0 +1,13 @@
+﻿international_relations = {
+	# Unlocks Defensive Pact and Rivalry
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+	category = society
+	unlocking_technologies = {
+		# tech_bureaucracy  # CHANGED
+	}
+	
+	ai_weight = {
+		value = 1.5 # Important in general
+	}
+}

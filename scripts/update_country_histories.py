@@ -23,15 +23,10 @@ def main():
             fh.write(full_text)
 
 VALID_STARTING_TECHS = [
-    # Economy
-    "enclosure",
     # Military
     "navigation",
     "standing_army",
     # Society
-    "urbanization",
-    "bureaucracy",
-    "international_trade",
     "international_relations",
 ]
 
