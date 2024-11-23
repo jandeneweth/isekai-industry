@@ -1,0 +1,52 @@
+﻿law_city_tolls = {
+	group = lawgroup_trade_policy
+	
+	icon = "gfx/interface/icons/invention_icons/standing_army.dds"
+	
+	progressiveness = -100
+	
+	disallowing_laws = {
+		law_laissez_faire
+	}
+	
+	can_enact = {
+		has_law = law_type:law_traditionalism
+	}
+	
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.10
+		state_market_access_price_impact = -0.10
+		state_tax_waste_add = 0.05
+		state_tax_capacity_mult = 0.5
+
+		tariff_import_add = 0.30
+		tariff_export_add = 0.30
+	}
+	
+	possible_political_movements = {
+		law_isolationism
+		law_mercantilism
+		law_protectionism
+	}	
+	
+	pop_support = {
+		value = 0
+	}
+	
+	ai_will_do = {
+		ruler = {
+			OR = {
+				has_ideology = ideology:ideology_traditionalist
+			}
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}

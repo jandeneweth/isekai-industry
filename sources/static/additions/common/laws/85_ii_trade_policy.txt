@@ -5,6 +5,10 @@
 	
 	progressiveness = -50
 	
+	unlocking_technologies = {
+		tech_bureaucracy
+	}
+	
 	disallowing_laws = {
 		law_laissez_faire
 	}
@@ -14,8 +18,6 @@
 	}
 	
 	modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.10  # ADDED
-		state_tax_waste_add = 0.05  # ADDED
 		country_authority_mult = 0.5
 		state_tax_capacity_mult = 0.25
 		country_tech_spread_mult = -0.15

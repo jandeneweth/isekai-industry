@@ -7,8 +7,6 @@
 	modifier = {
 		country_weekly_innovation_mult = -0.9
 		country_tech_spread_mult = -0.75
-		
-		state_market_access_price_impact = -0.10
 	}
 	
 	ai_weight = {

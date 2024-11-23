@@ -70,8 +70,10 @@ PATTENR_REPLACEMENT_LIST = [
     (re.compile("law_type:law_cooperative_ownership"), "law_type:law_traditionalism"),
     (re.compile("law_type:law_command_economy"), "law_type:law_traditionalism"),
 
-    (re.compile("law_type:law_protectionism"), "law_type:law_mercantilism"),
-    (re.compile("law_type:law_free_trade"), "law_type:law_mercantilism"),
+    (re.compile("law_type:law_mercantilism"), "law_type:law_city_tolls"),
+    (re.compile("law_type:law_protectionism"), "law_type:law_city_tolls"),
+    (re.compile("law_type:law_free_trade"), "law_type:law_city_tolls"),
+    (re.compile("law_type:law_isolationism"), "law_type:law_city_tolls"),
 
     (re.compile("law_type:law_per_capita_based_taxation"), "law_type:law_consumption_based_taxation"),
     (re.compile("law_type:law_proportional_taxation"), "law_type:law_land_based_taxation"),
