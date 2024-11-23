@@ -21,11 +21,11 @@ def main():
         with open(countryfile, "w", encoding="utf-8") as fh:
             fh.write(full_text)
 
-RE_COUNTRY_RECOGNITION = re.compile("country_type = unrecognized")
+RE_COUNTRY_RECOGNIZED = re.compile("country_type = recognized")
 
 def _replace_line(line: str) -> str:
-    if "country_type = unrecognized" in line:
-        return RE_COUNTRY_RECOGNITION.sub("country_type = recognized", line)
+    if "country_type = recognized" in line:
+        return RE_COUNTRY_RECOGNIZED.sub("country_type = unrecognized", line)
     return line
 
 

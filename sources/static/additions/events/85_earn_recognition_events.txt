@@ -1,0 +1,34 @@
+﻿namespace = earn_recognition_events
+
+# Modified to remove the trade partner generation
+earn_recognition_events.1 = {
+	type = country_event
+	placement = root
+
+	title = earn_recognition_events.1.t
+	desc = earn_recognition_events.1.d
+	flavor = earn_recognition_events.1.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	duration = 3
+
+	trigger = {
+		# Triggered by JE
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = earn_recognition_events.1.a
+		default_option = yes
+		set_country_type = recognized
+	}
+}

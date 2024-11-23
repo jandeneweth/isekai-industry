@@ -97,6 +97,7 @@ def _replace_line(line: str) -> str:
                 * POPULATION_FACTOR
                 * STATE_FACTOR_MAP.get(_replace_line.last_state, 1.0)
             )
+            new_number = max(new_number, 1)
             return RE_POP_SIZE.sub(f"size = {new_number}", line)
     return line
 

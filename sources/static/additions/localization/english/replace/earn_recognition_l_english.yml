@@ -1,0 +1,6 @@
+﻿l_english:
+ je_earn_recognition_tt: "We will become recognized as a major industrial power."
+ earn_recognition_events.1.t: "The [SCOPE.GetRootScope.GetCountry.GetAdjectiveNoFormatting] Industrialization"
+ earn_recognition_events.1.d: "The known world looks on as [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] develops into an industrial society."
+ earn_recognition_events.1.f: "The future shall be forged in the fires of industry."
+ earn_recognition_events.1.a: "A new dawn for [SCOPE.GetRootScope.GetCountry.GetNameNoFlag]."
