@@ -1,0 +1,24 @@
+﻿pm_default_building_forbidden_city = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_legitimacy_headofstate_add = 10  # CHANGED
+			country_authority_add = 50
+			country_prestige_add = 25
+			country_bureaucracy_add = 500  # ADDED, compensates for initial bureaucracy need of China
+		}
+	}
+
+	building_modifiers = {
+		#workforce_scaled = {
+		#}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 4000  # CHANGED
+			building_employment_clergymen_add = 1000  # CHANGED
+		}
+	}
+}

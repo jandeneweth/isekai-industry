@@ -1,0 +1,11 @@
+﻿BUILDINGS = {
+	s:STATE_BEIJING={
+		region_state:CHI={
+            # (Re-)add the forbidden city, for added base bureaucracy
+			create_building={
+				building="building_forbidden_city"
+				level=1
+			}
+		}
+	}
+}
