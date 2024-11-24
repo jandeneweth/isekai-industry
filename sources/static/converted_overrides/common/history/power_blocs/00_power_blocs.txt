@@ -4,8 +4,7 @@
 			name = HOLY_ROMAN_EMPIRE_BLOC
 			map_color = { 150 177 161 }
 			founding_date = 962.2.2
-			identity = identity_sovereign_empire
-			principle = principle_vassalization_1
+			identity = identity_holy_roman_empire
 			
 			member = c:ANH
 			member = c:BAD
