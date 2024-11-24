@@ -28,7 +28,7 @@
 		power_bloc = {
 			leverage_advantage = {
 				target = root
-				value <= -200
+				value < 0
 			}
 		}
 	}

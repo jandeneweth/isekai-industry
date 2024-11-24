@@ -55,7 +55,8 @@ PATTENR_REPLACEMENT_LIST = [
     (re.compile("law_type:law_state_atheism"), "law_type:law_state_religion"),
 
     (re.compile("law_type:law_national_militia"), "law_type:law_peasant_levies"),
-    (re.compile("law_type:law_mass_conscription"), "law_type:law_professional_army"),
+    (re.compile("law_type:law_mass_conscription"), "law_type:law_peasant_levies"),
+    (re.compile("law_type:law_professional_army"), "law_type:law_peasant_levies"),
 
     (re.compile("law_type:law_national_guard"), "law_type:law_no_home_affairs"),
     (re.compile("law_type:law_secret_police"), "law_type:law_no_home_affairs"),

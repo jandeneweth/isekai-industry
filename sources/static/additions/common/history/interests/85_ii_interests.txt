@@ -1,0 +1,6 @@
+﻿INTERESTS = {
+	c:AUS ?= {
+		add_declared_interest = region_north_germany
+		add_declared_interest = region_rhine
+	}
+}
