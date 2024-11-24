@@ -46,9 +46,9 @@
 	
 	lawgroup_trade_policy = {		
 		law_isolationism = neutral  # CHANGED
-		law_city_tolls = neutral  # ADDED
-		law_mercantilism = strongly_approve
-		law_protectionism = approve
+		law_city_tolls = disapprove  # ADDED
+		law_mercantilism = approve
+		law_protectionism = neutral
 		law_free_trade = disapprove
 	}	
 }

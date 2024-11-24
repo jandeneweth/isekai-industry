@@ -28,7 +28,7 @@
 		power_bloc = {
 			leverage_advantage = {
 				target = root
-				value <= -100
+				value <= -200
 			}
 		}
 	}
@@ -46,7 +46,7 @@
 	
 	cohesion = {
 		add = {
-			add = 0.4
+			add = 0.5
 			multiply = define:NPowerBlocs|COHESION_TARGET_MAX
 			desc = POWER_BLOC_COHESION_BASE
 		}

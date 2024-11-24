@@ -18,6 +18,7 @@
 		state_market_access_price_impact = -0.10
 		state_tax_waste_add = 0.05
 		state_tax_capacity_mult = 0.5
+		country_tech_spread_mult = -0.15
 
 		tariff_import_add = 0.30
 		tariff_export_add = 0.30

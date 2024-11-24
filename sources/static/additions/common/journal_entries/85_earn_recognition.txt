@@ -9,7 +9,14 @@
 
 	possible = {
 		is_country_type = unrecognized
-		NOT = { has_technology_researched = medieval_society }
+		AND = {
+			NOT = { enacted = law_type:law_serfdom }
+			# Needs less than 70% peasants
+			pop_type_percent_country = {
+				pop_type = peasants
+				percent < 0.70
+			}
+		}
 	}
 
 	immediate = {

@@ -32,7 +32,7 @@
 		state_radicals_from_sol_change_accepted_religion_mult = -0.1
 		state_loyalists_from_sol_change_accepted_religion_mult = 0.1	
 		state_radicals_from_discrimination_mult = 0.25  # ADDED
-		country_authority_add = 200
+		# country_authority_add = 200  # REMOVED
 	}
 	
 	possible_political_movements = {

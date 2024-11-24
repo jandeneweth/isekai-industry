@@ -1,0 +1,12 @@
+﻿
+
+power_bloc_is_weak = {
+    AND = {
+        power_bloc_leader = {
+            country_rank < rank_value:great_power
+        }
+        any_country = {
+            country_rank >= rank_value:great_power
+        }
+    }
+}

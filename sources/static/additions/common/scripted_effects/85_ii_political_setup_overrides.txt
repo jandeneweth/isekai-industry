@@ -1,0 +1,32 @@
+﻿effect_starting_politics_traditional = {
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_hereditary_bureaucrats
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_traditionalism
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_peasant_levies	
+	activate_law = law_type:law_closed_borders
+	if = {
+		limit = {
+			is_country_type = decentralized
+		}
+		activate_law = law_type:law_chiefdom
+		activate_law = law_type:law_city_tolls  # CHANGED
+		activate_law = law_type:law_right_of_assembly	
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_peasant_levies	
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_no_workers_rights
+	}
+	else = {
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_city_tolls  # CHANGED
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies	
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_no_workers_rights
+	}
+}
