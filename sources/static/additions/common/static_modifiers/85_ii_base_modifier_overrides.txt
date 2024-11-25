@@ -72,11 +72,22 @@ malnourishment = {
 	state_birth_rate_mult = -0.05	# per level below equilibrium  # CHANGED
 }
 
+
 # Excess BUR increases these modifiers completely at 2x production to usage
 efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	# state_construction_mult = 0.10  # REMOVED
 	country_tech_spread_add = 10  # ADDED
+}
+
+# Insufficient BUR increases these modifiers completely at 2x usage to production
+administrative_overburden = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	# state_tax_waste_add = 1  # REMOVED
+	country_government_dividends_waste_add = 1
+	state_radicals_from_sol_change_mult = 0.2  # ADDED
+	state_loyalists_from_sol_change_mult  = -0.2 # ADDED
+	country_tech_research_speed_mult = -0.5  # ADDED
 }
 
 # Multiplies unemployment rate in state by this
@@ -95,9 +106,9 @@ country_gdp = {
 # Scales with country literacy rate
 country_literacy_rate = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_weekly_innovation_add = 50  # ADDED
-	country_weekly_innovation_max_add = 100  # CHANGED
-	country_tech_spread_add = 50  # CHANGED
+	country_weekly_innovation_add = 100  # ADDED
+	country_weekly_innovation_max_add = 200  # CHANGED
+	country_tech_spread_add = 100  # CHANGED
 }
 
 # Scales with number of excess innovation points
