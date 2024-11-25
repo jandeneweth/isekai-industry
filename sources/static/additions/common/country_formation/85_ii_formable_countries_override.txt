@@ -1,0 +1,7 @@
+﻿GBR = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.85  # CHANGED, because AI can already form it without scottish states otherwise
+	
+	ai_will_do = { always = yes }
+}
