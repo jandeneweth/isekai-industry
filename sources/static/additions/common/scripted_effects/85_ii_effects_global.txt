@@ -1,6 +1,8 @@
 ﻿isekai_industry_global_effect = {
-    #every_country = {
-    #    limit = {
-    #    }
-    #}
+    # It seems on_activate_law causes this effect to get triggered on start, 
+    #  due to activate_law happening in country history setup.
+    #  But better be safe than sorry.
+    every_country = {
+        effect_update_medieval_society_modifier = yes
+    }
 }

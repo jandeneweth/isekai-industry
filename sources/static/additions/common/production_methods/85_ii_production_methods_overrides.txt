@@ -8,7 +8,7 @@
 			country_legitimacy_headofstate_add = 10  # CHANGED
 			country_authority_add = 50
 			country_prestige_add = 25
-			country_bureaucracy_add = 500  # ADDED, compensates for initial bureaucracy need of China
+    		state_bureaucracy_population_base_cost_factor_mult = -0.1  # ADDED, compensates for bureaucracy need of China
 		}
 	}
 

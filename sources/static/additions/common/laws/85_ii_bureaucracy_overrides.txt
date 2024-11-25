@@ -6,8 +6,7 @@
 	progressiveness = -50
 	
 	modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.10  # CHANGED
-		state_tax_waste_add = 0.1  # ADDED
+		# state_bureaucracy_population_base_cost_factor_mult = -0.25  # REMOVED (accounted for via "medieval society level")
 		country_aristocrats_pol_str_mult = 0.25
 	}
 

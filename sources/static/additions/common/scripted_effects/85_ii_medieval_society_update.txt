@@ -1,0 +1,263 @@
+﻿effect_update_medieval_society_modifier = {
+    if = {
+        # Check if the level changed
+        # (to optimize this a bit, it is called a lot at setup)
+        limit = {
+            OR = {
+                NOT = { has_variable = last_fetched_medieval_society_level }
+                var:last_fetched_medieval_society_level != medieval_society_level
+            }
+        }
+
+        # Update the variable
+        set_variable = {
+            name = last_fetched_medieval_society_level
+            value = medieval_society_level
+        }
+
+        # Remove existing medieval society modifier
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_5
+            }
+            remove_modifier = modifier_medieval_society_5
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_10
+            }
+            remove_modifier = modifier_medieval_society_10
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_15
+            }
+            remove_modifier = modifier_medieval_society_15
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_20
+            }
+            remove_modifier = modifier_medieval_society_20
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_25
+            }
+            remove_modifier = modifier_medieval_society_25
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_30
+            }
+            remove_modifier = modifier_medieval_society_30
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_35
+            }
+            remove_modifier = modifier_medieval_society_35
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_40
+            }
+            remove_modifier = modifier_medieval_society_40
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_45
+            }
+            remove_modifier = modifier_medieval_society_45
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_50
+            }
+            remove_modifier = modifier_medieval_society_50
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_55
+            }
+            remove_modifier = modifier_medieval_society_55
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_60
+            }
+            remove_modifier = modifier_medieval_society_60
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_65
+            }
+            remove_modifier = modifier_medieval_society_65
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_70
+            }
+            remove_modifier = modifier_medieval_society_70
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_75
+            }
+            remove_modifier = modifier_medieval_society_75
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_80
+            }
+            remove_modifier = modifier_medieval_society_80
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_85
+            }
+            remove_modifier = modifier_medieval_society_85
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_90
+            }
+            remove_modifier = modifier_medieval_society_90
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_95
+            }
+            remove_modifier = modifier_medieval_society_95
+        }
+        if = {
+            limit = {
+                has_modifier = modifier_medieval_society_100
+            }
+            remove_modifier = modifier_medieval_society_100
+        }
+
+
+        # Add new medieval society modifier
+        if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 100
+            }
+            add_modifier = modifier_medieval_society_100
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 95
+            }
+            add_modifier = modifier_medieval_society_95
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 90
+            }
+            add_modifier = modifier_medieval_society_90
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 85
+            }
+            add_modifier = modifier_medieval_society_85
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 80
+            }
+            add_modifier = modifier_medieval_society_80
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 75
+            }
+            add_modifier = modifier_medieval_society_75
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 70
+            }
+            add_modifier = modifier_medieval_society_70
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 65
+            }
+            add_modifier = modifier_medieval_society_65
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 60
+            }
+            add_modifier = modifier_medieval_society_60
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 55
+            }
+            add_modifier = modifier_medieval_society_55
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 50
+            }
+            add_modifier = modifier_medieval_society_50
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 45
+            }
+            add_modifier = modifier_medieval_society_45
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 40
+            }
+            add_modifier = modifier_medieval_society_40
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 35
+            }
+            add_modifier = modifier_medieval_society_35
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 30
+            }
+            add_modifier = modifier_medieval_society_30
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 25
+            }
+            add_modifier = modifier_medieval_society_25
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 20
+            }
+            add_modifier = modifier_medieval_society_20
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 15
+            }
+            add_modifier = modifier_medieval_society_15
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 10
+            }
+            add_modifier = modifier_medieval_society_10
+        }
+        else_if = {
+            limit = {
+                var:last_fetched_medieval_society_level >= 5
+            }
+            add_modifier = modifier_medieval_society_5
+        }
+    }
+}

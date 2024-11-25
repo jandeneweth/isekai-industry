@@ -1,0 +1,27 @@
+﻿# Root owner Country of the Law
+# executed when the law is activated for any reason. It's usually because it
+# has been enacted, but script can activate laws directly without going through
+# the enactment process. Normally, it's immediately preceded by
+# on_law_enactment_ended, but if a law is directly set by script, thus
+# bypassing the enactment process, this will execute while
+# on_law_enactment_ended will not
+#
+# NOTE: unlike the other on_law_<something> on-actions, at the point in time
+# when this is triggered the law that was enacted is no longer considered being
+# enacted. Therefore using the `currently_enacting_law` link will return the
+# null law
+on_law_activated = {
+	# Note: this also seems to be called on creation of a game!
+	#  Probably because of laws being activated in history definitions.
+	effect = {
+		# The documentation is a lie: the scope of this effect is 'none/all'.
+		#  So we call this for every country... the effect is somewhat optimized.
+		every_country = {
+			limit = {
+				exists = yes
+				country_rank > rank_value:decentralized_power 
+			}
+			effect_update_medieval_society_modifier = years
+		}
+	}
+}
