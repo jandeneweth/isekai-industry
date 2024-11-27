@@ -1,0 +1,40 @@
+﻿namespace = ii_traveller_starts
+
+ii_traveller_starts.1 = {
+	type = country_event
+	placement = root
+
+	title = ii_traveller_starts.1.t
+	desc = ii_traveller_starts.1.d
+	flavor = ii_traveller_starts.1.f
+
+    dlc = dlcii
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	duration = 3
+
+	trigger = {
+        # Triggered by journal entry
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = ii_traveller_starts.1.a
+		default_option = yes
+
+        set_variable = ii_has_traveller
+	}
+
+    after = {
+        set_global_variable = ii_travellers_started
+    }
+}

@@ -1,0 +1,6 @@
+﻿dlcii = {
+	name = "Isekai Industry"
+	steam_id = ""
+	type = minor
+	priority = 0
+}

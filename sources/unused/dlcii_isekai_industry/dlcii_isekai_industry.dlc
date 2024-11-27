@@ -1,0 +1,8 @@
+name = "Isekai Industry"
+path = "dlc/dlcii_isekai_industry"
+steam_id = ""
+pops_id = "dlcii_isekai_industry"
+mp_synced = yes
+affects_save_compatibility = yes
+localizable_name = "dlcii"
+checksum = "d2c20d86c9c346b099f370393e72972d"

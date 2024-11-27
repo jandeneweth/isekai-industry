@@ -1,0 +1,21 @@
+{
+	"id":
+	{
+		"steam": "",
+		"paradox": "dlcii_isekai_industry"
+	},
+	"displayName":
+	{
+		"en": "Isekai Industry"
+	},
+	"category":
+	{
+		"en": "DLC"
+	},
+	"description":
+	{
+		"en": "Victoria 3 Mod: Isekai Industry"
+	},
+	"thumbnailPath": "thumbnail_ii.png",
+	"thirdPartyContent": false
+}
