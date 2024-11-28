@@ -1,18 +1,14 @@
 ﻿NPolitics = {
-	STATE_BUREAUCRACY_BASE_COST = 0		# The base cost per incorporated state
-	STATE_BUREAUCRACY_POP_BASE_COST = 5		# The base BUR multiplier per population multiple
+	STATE_BUREAUCRACY_BASE_COST = 0		# CHANGED from 10  # The base cost per incorporated state
+	STATE_BUREAUCRACY_POP_BASE_COST = 5		# CHANGED from 4  # The base BUR multiplier per population multiple
 }
 
 NPops = {
-    LOYALTIES_GAIN_GRACE_PERIOD = "1446.11.11"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
+    LOYALTIES_GAIN_GRACE_PERIOD = "1446.11.11"	# CHANGED  # Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
     
-    WORKING_ADULT_RATIO_BASE = 0.30				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
-    DEPENDENT_CONSUMPTION_RATIO = 0.55			# Dependents consume this multiple of Needs compared to Working Adults
-
-    SOL_STARVING_THRESHOLD = 5
-
-    INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 10000			# How many pops can be taxed efficiently for each tax capacity
+    WORKING_ADULT_RATIO_BASE = 0.30				# CHANGED from 0.25  # Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
+    DEPENDENT_CONSUMPTION_RATIO = 0.55			# CHANGED from 0.50  # Dependents consume this multiple of Needs compared to Working Adults
 }
 
-# Not sure if overwriting this effects the calculations in vanilla defines...
+# CHANGED from 5. Not sure if overwriting this effects the calculations in vanilla defines...
 @pop_growth_equilibrium_sol = 4		# Equilibrium is pops stop starving and where growth first becomes positive

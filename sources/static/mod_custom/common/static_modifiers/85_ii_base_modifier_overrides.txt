@@ -13,7 +13,7 @@ base_values = {
 	
 	country_legitimacy_govt_size_add = 1
 	
-	country_bureaucracy_add = 200
+	country_bureaucracy_add = 50  # CHANGED
 	country_authority_add = 100
 	country_influence_add = 100
 
@@ -77,7 +77,7 @@ malnourishment = {
 efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	# state_construction_mult = 0.10  # REMOVED
-	country_tech_spread_add = 10  # ADDED
+	state_tax_capacity_mult = 0.5  # ADDED
 }
 
 # Insufficient BUR increases these modifiers completely at 2x usage to production
@@ -85,8 +85,7 @@ administrative_overburden = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	# state_tax_waste_add = 1  # REMOVED
 	country_government_dividends_waste_add = 1
-	state_radicals_from_sol_change_mult = 0.2  # ADDED
-	state_loyalists_from_sol_change_mult  = -0.2 # ADDED
+	state_tax_capacity_mult = -0.5  # ADDED
 	country_tech_research_speed_mult = -0.5  # ADDED
 }
 
