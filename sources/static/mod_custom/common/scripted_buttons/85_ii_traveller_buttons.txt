@@ -1,0 +1,83 @@
+﻿ii_traveller_build_button = {
+	name = "ii_traveller_build_button"
+	desc = "ii_traveller_build_button_desc"
+
+	possible = {
+		NOT = { has_modifier = ii_traveller_build_modifier } 
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_modifier = ii_traveller_tech_modifier
+			}
+			remove_modifier = ii_traveller_tech_modifier
+		}
+		if = {
+			limit = {
+				has_modifier = ii_traveller_law_modifier
+			}
+			remove_modifier = ii_traveller_law_modifier
+		}
+		add_modifier = {
+			name = ii_traveller_build_modifier
+			days = -1
+		}
+	}
+}
+
+ii_traveller_tech_button = {
+	name = "ii_traveller_tech_button"
+	desc = "ii_traveller_tech_button_desc"
+
+	possible = {
+		NOT = { has_modifier = ii_traveller_tech_modifier } 
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_modifier = ii_traveller_build_modifier
+			}
+			remove_modifier = ii_traveller_build_modifier
+		}
+		if = {
+			limit = {
+				has_modifier = ii_traveller_law_modifier
+			}
+			remove_modifier = ii_traveller_law_modifier
+		}
+		add_modifier = {
+			name = ii_traveller_tech_modifier
+			days = -1
+		}
+	}
+}
+
+ii_traveller_law_button = {
+	name = "ii_traveller_law_button"
+	desc = "ii_traveller_law_button_desc"
+
+	possible = {
+		NOT = { has_modifier = ii_traveller_law_modifier } 
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_modifier = ii_traveller_build_modifier
+			}
+			remove_modifier = ii_traveller_build_modifier
+		}
+		if = {
+			limit = {
+				has_modifier = ii_traveller_tech_modifier
+			}
+			remove_modifier = ii_traveller_tech_modifier
+		}
+		add_modifier = {
+			name = ii_traveller_law_modifier
+			days = -1
+		}
+	}
+}

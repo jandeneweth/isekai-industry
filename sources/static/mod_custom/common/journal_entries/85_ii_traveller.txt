@@ -1,0 +1,92 @@
+﻿je_ii_traveller = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	group = je_group_internal_affairs
+
+	weight = 100
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		is_player = yes
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = ii_didnt_have_traveller_tt
+			NOT = { has_variable = ii_had_traveller }
+		}
+		custom_tooltip = {
+			text = ii_no_traveller_in_world_tt
+			NOT = {
+				any_country = {
+					has_variable = ii_has_traveller
+				}
+			}
+		}
+	}
+
+	immediate = {
+        set_variable = ii_has_traveller
+        set_variable = ii_had_traveller
+        change_global_variable = {
+			name = ii_travellers_present
+			add = 1
+		}
+	}
+
+	scripted_button = ii_traveller_build_button
+	scripted_button = ii_traveller_tech_button
+	scripted_button = ii_traveller_law_button
+
+	modifiers_while_active = {
+		ii_traveller_active_modifier
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {}
+			}
+		}
+		random_events = {
+			400 = 0
+		}
+	}
+
+	invalid = {
+		custom_tooltip = {
+			text = ii_no_more_traveller_tt
+			NOT = { 
+				has_variable = ii_has_traveller
+			}
+		}
+	}
+
+	on_invalid = {
+		remove_variable = ii_has_traveller
+        change_global_variable = {
+			name = ii_travellers_present
+			subtract = 1
+		}
+		clamp_global_variable = {
+			name = ii_travellers_present
+			min = 0
+			max = 1000  # Do we need a max?
+		}
+	}
+
+	timeout = 18250  # 50 years
+
+	on_timeout = {
+		remove_variable = ii_has_traveller
+        change_global_variable = {
+			name = ii_travellers_present
+			subtract = 1
+		}
+		clamp_global_variable = {
+			name = ii_travellers_present
+			min = 0
+			max = 1000  # Do we need a max?
+		}
+	}
+}
