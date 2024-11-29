@@ -5,8 +5,9 @@ modifier_medieval_society_5 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.05
     state_tax_waste_add = 0.045
-    country_tech_research_speed_mult = -0.045
+    #country_tech_research_speed_mult = -0.045
     state_construction_mult = -0.025
+    country_tech_spread_mult = -0.025
 }
 
 modifier_medieval_society_10 = {
@@ -14,8 +15,9 @@ modifier_medieval_society_10 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.1
     state_tax_waste_add = 0.09
-    country_tech_research_speed_mult = -0.09
+    #country_tech_research_speed_mult = -0.09
     state_construction_mult = -0.050
+    country_tech_spread_mult = -0.050
 }
 
 modifier_medieval_society_15 = {
@@ -23,8 +25,9 @@ modifier_medieval_society_15 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.15
     state_tax_waste_add = 0.0135
-    country_tech_research_speed_mult = -0.0135
+    #country_tech_research_speed_mult = -0.0135
     state_construction_mult = -0.075
+    country_tech_spread_mult = -0.075
 }
 
 modifier_medieval_society_20 = {
@@ -32,8 +35,9 @@ modifier_medieval_society_20 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.2
     state_tax_waste_add = 0.18
-    country_tech_research_speed_mult = -0.18
+    #country_tech_research_speed_mult = -0.18
     state_construction_mult = -0.100
+    country_tech_spread_mult = -0.100
 }
 
 modifier_medieval_society_25 = {
@@ -41,8 +45,9 @@ modifier_medieval_society_25 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.25
     state_tax_waste_add = 0.225
-    country_tech_research_speed_mult = -0.225
+    #country_tech_research_speed_mult = -0.225
     state_construction_mult = -0.125
+    country_tech_spread_mult = -0.125
 }
 
 modifier_medieval_society_30 = {
@@ -50,8 +55,9 @@ modifier_medieval_society_30 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.3
     state_tax_waste_add = 0.27
-    country_tech_research_speed_mult = -0.27
+    #country_tech_research_speed_mult = -0.27
     state_construction_mult = -0.150
+    country_tech_spread_mult = -0.150
 }
 
 modifier_medieval_society_35 = {
@@ -59,8 +65,9 @@ modifier_medieval_society_35 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.35
     state_tax_waste_add = 0.315
-    country_tech_research_speed_mult = -0.315
+    #country_tech_research_speed_mult = -0.315
     state_construction_mult = -0.175
+    country_tech_spread_mult = -0.175
 }
 
 modifier_medieval_society_40 = {
@@ -68,8 +75,9 @@ modifier_medieval_society_40 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.4
     state_tax_waste_add = 0.36
-    country_tech_research_speed_mult = -0.36
+    #country_tech_research_speed_mult = -0.36
     state_construction_mult = -0.200
+    country_tech_spread_mult = -0.200
 }
 
 modifier_medieval_society_45 = {
@@ -77,8 +85,9 @@ modifier_medieval_society_45 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.45
     state_tax_waste_add = 0.405
-    country_tech_research_speed_mult = -0.405
+    #country_tech_research_speed_mult = -0.405
     state_construction_mult = -0.225
+    country_tech_spread_mult = -0.225
 }
 
 modifier_medieval_society_50 = {
@@ -86,8 +95,9 @@ modifier_medieval_society_50 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.5
     state_tax_waste_add = 0.45
-    country_tech_research_speed_mult = -0.45
+    #country_tech_research_speed_mult = -0.45
     state_construction_mult = -0.250
+    country_tech_spread_mult = -0.250
 }
 
 modifier_medieval_society_55 = {
@@ -95,8 +105,9 @@ modifier_medieval_society_55 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.55
     state_tax_waste_add = 0.495
-    country_tech_research_speed_mult = -0.495
+    #country_tech_research_speed_mult = -0.495
     state_construction_mult = -0.275
+    country_tech_spread_mult = -0.275
 }
 
 modifier_medieval_society_60 = {
@@ -104,8 +115,9 @@ modifier_medieval_society_60 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.6
     state_tax_waste_add = 0.54
-    country_tech_research_speed_mult = -0.54
+    #country_tech_research_speed_mult = -0.54
     state_construction_mult = -0.300
+    country_tech_spread_mult = -0.300
 }
 
 modifier_medieval_society_65 = {
@@ -113,8 +125,9 @@ modifier_medieval_society_65 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.65
     state_tax_waste_add = 0.585
-    country_tech_research_speed_mult = -0.585
+    #country_tech_research_speed_mult = -0.585
     state_construction_mult = -0.325
+    country_tech_spread_mult = -0.325
 }
 
 modifier_medieval_society_70 = {
@@ -122,8 +135,9 @@ modifier_medieval_society_70 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.7
     state_tax_waste_add = 0.63
-    country_tech_research_speed_mult = -0.63
+    #country_tech_research_speed_mult = -0.63
     state_construction_mult = -0.350
+    country_tech_spread_mult = -0.350
 }
 
 modifier_medieval_society_75 = {
@@ -131,9 +145,9 @@ modifier_medieval_society_75 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.75
     state_tax_waste_add = 0.675
-    country_tech_research_speed_mult = -0.675
-    state_construction_mult = -0.25
+    #country_tech_research_speed_mult = -0.675
     state_construction_mult = -0.375
+    country_tech_spread_mult = -0.375
 }
 
 modifier_medieval_society_80 = {
@@ -141,8 +155,9 @@ modifier_medieval_society_80 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.8
     state_tax_waste_add = 0.72
-    country_tech_research_speed_mult = -0.72
+    #country_tech_research_speed_mult = -0.72
     state_construction_mult = -0.400
+    country_tech_spread_mult = -0.400
 }
 
 modifier_medieval_society_85 = {
@@ -150,8 +165,9 @@ modifier_medieval_society_85 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.85
     state_tax_waste_add = 0.765
-    country_tech_research_speed_mult = -0.765
+    #country_tech_research_speed_mult = -0.765
     state_construction_mult = -0.425
+    country_tech_spread_mult = -0.425
 }
 
 modifier_medieval_society_90 = {
@@ -159,8 +175,9 @@ modifier_medieval_society_90 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.9
     state_tax_waste_add = 0.81
-    country_tech_research_speed_mult = -0.81
+    #country_tech_research_speed_mult = -0.81
     state_construction_mult = -0.450
+    country_tech_spread_mult = -0.450
 }
 
 modifier_medieval_society_95 = {
@@ -168,8 +185,9 @@ modifier_medieval_society_95 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -0.95
     state_tax_waste_add = 0.855
-    country_tech_research_speed_mult = -0.855
+    #country_tech_research_speed_mult = -0.855
     state_construction_mult = -0.475
+    country_tech_spread_mult = -0.475
 }
 
 modifier_medieval_society_100 = {
@@ -177,6 +195,7 @@ modifier_medieval_society_100 = {
 	
     state_bureaucracy_population_base_cost_factor_mult = -1.0
     state_tax_waste_add = 0.90
-    country_tech_research_speed_mult = -0.90
+    #country_tech_research_speed_mult = -0.90
     state_construction_mult = -0.500
+    country_tech_spread_mult = -0.500
 }

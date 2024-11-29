@@ -4,6 +4,7 @@
 
 	possible = {
 		NOT = { has_modifier = ii_traveller_build_modifier } 
+		NOT = { has_modifier = ii_traveller_action_cooldown } 
 	}
 
 	effect = {
@@ -23,6 +24,10 @@
 			name = ii_traveller_build_modifier
 			days = -1
 		}
+		add_modifier = {
+			name = ii_traveller_action_cooldown
+			months = 6
+		}
 	}
 }
 
@@ -32,6 +37,7 @@ ii_traveller_tech_button = {
 
 	possible = {
 		NOT = { has_modifier = ii_traveller_tech_modifier } 
+		NOT = { has_modifier = ii_traveller_action_cooldown } 
 	}
 
 	effect = {
@@ -51,6 +57,10 @@ ii_traveller_tech_button = {
 			name = ii_traveller_tech_modifier
 			days = -1
 		}
+		add_modifier = {
+			name = ii_traveller_action_cooldown
+			months = 6
+		}
 	}
 }
 
@@ -60,6 +70,7 @@ ii_traveller_law_button = {
 
 	possible = {
 		NOT = { has_modifier = ii_traveller_law_modifier } 
+		NOT = { has_modifier = ii_traveller_action_cooldown } 
 	}
 
 	effect = {
@@ -78,6 +89,10 @@ ii_traveller_law_button = {
 		add_modifier = {
 			name = ii_traveller_law_modifier
 			days = -1
+		}
+		add_modifier = {
+			name = ii_traveller_action_cooldown
+			months = 6
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿l_english:
  je_ii_traveller: "The Wandering Soul"
- je_ii_traveller_reason: "A wandering soul has taken hold of one of our citizens, built its powerbase, and is primed to exert its influence on the world. The nation will accelerate towards the future... whatever that may bring."
+ je_ii_traveller_reason: "A wandering soul has taken hold of one of our citizens. After solidifying a base of power, it is now influencing our nation. The world is accelerating towards the future... whatever that may bring."
  ii_didnt_have_traveller_tt: "Didn't have a wandering soul before"
  ii_no_more_traveller_tt: "The wandering soul has left this world"
  ii_no_traveller_in_world_tt: "No wandering soul is currently active in the world"
@@ -16,3 +16,4 @@
  ii_traveller_build_modifier: "Economic Initiative"
  ii_traveller_tech_modifier: "Forbidden Knowledge"
  ii_traveller_law_modifier: "Reformist Intrigues"
+ ii_traveller_action_cooldown: "Wanderer Focus Cooldown"
