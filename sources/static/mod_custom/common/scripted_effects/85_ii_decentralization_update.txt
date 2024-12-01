@@ -1,0 +1,38 @@
+﻿effect_update_decentralization = {
+    if = {
+        # Check if the level changed
+        # (to optimize this a bit, it is called a lot at setup)
+        limit = {
+            OR = {
+                NOT = { has_variable = last_fetched_decentralization_score }
+                var:last_fetched_decentralization_score != decentralization_score
+            }
+        }
+        set_variable = {
+            name = last_fetched_decentralization_score
+            value = decentralization_score
+        }
+
+        # Remove existing modifier
+        remove_modifier = modifier_decentralization
+
+        # Re-add at new level
+        add_modifier = {
+            name = modifier_decentralization
+            multiplier = var:last_fetched_decentralization_score
+        }
+
+        # Update journal entry
+        if = {
+            limit = {
+                has_journal_entry = je_ii_decentralized_governance
+            }
+            je:je_ii_decentralized_governance = {
+                set_bar_progress = {
+                    name = decentralized_government_progress_bar
+                    value = PREV.var:last_fetched_decentralization_score
+                }
+            }
+        }
+    }
+}

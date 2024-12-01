@@ -1,0 +1,211 @@
+﻿ decentralized_government_progress_bar = {
+	name = "decentralized_government_progress_bar"
+	desc = "decentralized_government_progress_bar_desc"
+
+	default = yes
+
+	start_value = 0
+	min_value = 0
+	max_value = 100
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_law = law_type:law_peasant_levies
+			}
+			add = {
+				desc = "decentralization_progress_peasant_levies"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_hereditary_bureaucrats
+			}
+			add = {
+				desc = "decentralization_progress_hereditary_bureaucrats"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_state_religion
+			}
+			add = {
+				desc = "decentralization_progress_state_religion"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_autocracy
+			}
+			add = {
+				desc = "decentralization_progress_autocracy"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_elder_council
+			}
+			add = {
+				desc = "decentralization_progress_elder_council"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_oligarchy
+			}
+			add = {
+				desc = "decentralization_progress_oligarchy"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_landed_voting
+			}
+			add = {
+				desc = "decentralization_progress_landed_voting"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_traditionalism
+			}
+			add = {
+				desc = "decentralization_progress_traditionalism"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_industry_banned
+			}
+			add = {
+				desc = "decentralization_progress_industry_banned"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_agrarianism
+			}
+			add = {
+				desc = "decentralization_progress_agrarianism"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_chiefdom
+			}
+			add = {
+				desc = "decentralization_progress_chiefdom"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_monarchy
+			}
+			add = {
+				desc = "decentralization_progress_monarchy"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_theocracy
+			}
+			add = {
+				desc = "decentralization_progress_theocracy"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_serfdom
+			}
+			add = {
+				desc = "decentralization_progress_serfdom"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_tenant_farmers
+			}
+			add = {
+				desc = "decentralization_progress_tenant_farmers"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_closed_borders
+			}
+			add = {
+				desc = "decentralization_progress_closed_borders"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_consumption_based_taxation
+			}
+			add = {
+				desc = "decentralization_progress_consumption_based_taxation"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_land_based_taxation
+			}
+			add = {
+				desc = "decentralization_progress_land_based_taxation"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_per_capita_based_taxation
+			}
+			add = {
+				desc = "decentralization_progress_per_capita_based_taxation"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_isolationism
+			}
+			add = {
+				desc = "decentralization_progress_isolationism"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_city_tolls
+			}
+			add = {
+				desc = "decentralization_progress_city_tolls"
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_mercantilism
+			}
+			add = {
+				desc = "decentralization_progress_mercantilism"
+				value = 0
+			}
+		}
+	}
+ }

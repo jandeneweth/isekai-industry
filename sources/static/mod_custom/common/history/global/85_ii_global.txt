@@ -1,3 +1,9 @@
 ﻿GLOBAL = {
-	isekai_industry_global_effect = yes
+    every_country = {
+        # If not set, errors from variables can flood the error log. 
+		set_variable = {
+			name = recognition_progress_var  # Already an issue in old 'recognition progress' score it seems?
+			value = 0
+		}
+    }
 }

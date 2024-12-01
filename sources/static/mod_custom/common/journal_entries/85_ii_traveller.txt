@@ -28,10 +28,6 @@
 	immediate = {
         set_variable = ii_has_traveller
         set_variable = ii_had_traveller
-        change_global_variable = {
-			name = ii_travellers_present
-			add = 1
-		}
 	}
 
 	scripted_button = ii_traveller_build_button
@@ -40,17 +36,6 @@
 
 	modifiers_while_active = {
 		ii_traveller_active_modifier
-	}
-
-	on_monthly_pulse = {
-		effect = {
-			if = {
-				limit = {}
-			}
-		}
-		random_events = {
-			400 = 0
-		}
 	}
 
 	invalid = {
@@ -64,29 +49,11 @@
 
 	on_invalid = {
 		remove_variable = ii_has_traveller
-        change_global_variable = {
-			name = ii_travellers_present
-			subtract = 1
-		}
-		clamp_global_variable = {
-			name = ii_travellers_present
-			min = 0
-			max = 1000  # Do we need a max?
-		}
 	}
 
 	timeout = 18250  # 50 years
 
 	on_timeout = {
 		remove_variable = ii_has_traveller
-        change_global_variable = {
-			name = ii_travellers_present
-			subtract = 1
-		}
-		clamp_global_variable = {
-			name = ii_travellers_present
-			min = 0
-			max = 1000  # Do we need a max?
-		}
 	}
 }

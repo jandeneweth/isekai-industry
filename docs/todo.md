@@ -1,7 +1,5 @@
 # TODO
 
 - Update "converted" for 1.8, new converter is out!
-- Rewrite medieval society modifier into two new ones:
-    - Decaying "Medieval society" modifier 
-    - Single "Decentralization" modifier, using multiplier to get different levels
+- Add decaying "Medieval society" modifier for tech spread?
 - Allow "Reformist Intrigues" to surpress government IGs

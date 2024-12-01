@@ -1,0 +1,10 @@
+﻿# Note: This modifier will be multiplied by the "decentralization_score" variable.
+modifier_decentralization = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	
+    state_bureaucracy_population_base_cost_factor_mult = -0.01
+    state_tax_waste_add = 0.009
+    #country_tech_research_speed_mult = -0.045
+    state_construction_mult = -0.005
+    country_tech_spread_mult = -0.005
+}

@@ -1,6 +1,6 @@
-﻿# Medieval society level is a score from 0-100, used to determine modifiers to the country
+﻿# Decentralization is a score from 0-100, used to determine modifiers to the country
 # It is calculated from the country's laws.
-medieval_society_level = {
+decentralization_score = {
 	value = 0
 
     # Army model

@@ -21,7 +21,7 @@ on_law_activated = {
 				exists = yes
 				country_rank > rank_value:decentralized_power 
 			}
-			effect_update_medieval_society_modifier = years
+			effect_update_decentralization = yes
 		}
 	}
 }
