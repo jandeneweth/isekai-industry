@@ -9,7 +9,7 @@
 			religion = rel:catholic
 			birth_date = 1444.6.28
 			traits = {
-				grifter trait_child 
+				inexperienced trait_child 
 			}
 		}
 

@@ -1,14 +1,13 @@
 ﻿CHARACTERS = {
 	c:X60 = {
 		create_character = {
-			first_name = "Iavy"
-			last_name = "Betsimisaraka"
+			first_name = "Mahkattamaweya_Amonokoa"
 			ruler = yes
-			culture = cu:malagasy
+			culture = cu:algonquian
 			religion = rel:animist
-			birth_date = 1426.1.1
+			birth_date = 1426.11.11
 			traits = {
-				innovative 
+				basic_political_operator 
 			}
 		}
 

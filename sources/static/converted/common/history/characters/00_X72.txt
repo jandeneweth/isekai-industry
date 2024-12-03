@@ -1,26 +1,26 @@
 ﻿CHARACTERS = {
 	c:X72 = {
 		create_character = {
-			first_name = "Colimotl_Tzome"
-			last_name = "Colliman"
+			first_name = "Ahmed"
+			last_name = "Candaroglu"
 			heir = yes
-			culture = cu:tarascan
-			religion = rel:animist
-			birth_date = 1440.1.1
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1425.1.1
 			traits = {
-				experienced_political_operator trait_child 
+				cruel 
 			}
 		}
 
 		create_character = {
-			first_name = "Mazatl"
-			last_name = "Colliman"
+			first_name = "Ismail"
+			last_name = "Candaroglu"
 			ruler = yes
-			culture = cu:tarascan
-			religion = rel:animist
-			birth_date = 1420.1.1
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1423.1.1
 			traits = {
-				innovative 
+				charismatic 
 			}
 		}
 

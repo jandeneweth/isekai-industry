@@ -1,26 +1,26 @@
 ﻿CHARACTERS = {
 	c:V81 = {
 		create_character = {
-			first_name = "Ali"
-			last_name = "Hintata"
+			first_name = "Jean"
+			last_name = "de_Bourgogne"
 			heir = yes
-			culture = cu:maghrebi
-			religion = rel:sunni
-			birth_date = 1440.1.1
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1415.1.1
 			traits = {
-				trait_child 
+				innovative 
 			}
 		}
 
 		create_character = {
-			first_name = "Muhammad"
-			last_name = "Hintata"
+			first_name = "Charles_I"
+			last_name = "de_Bourgogne"
 			ruler = yes
-			culture = cu:maghrebi
-			religion = rel:sunni
-			birth_date = 1424.1.1
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1395.10.25
 			traits = {
-				innovative 
+				cautious 
 			}
 		}
 

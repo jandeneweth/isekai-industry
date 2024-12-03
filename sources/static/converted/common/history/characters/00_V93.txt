@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:V93 = {
 		create_character = {
-			first_name = "Bahabu"
-			last_name = "Udege"
+			first_name = "Ma_ilikukahi"
+			last_name = "Lono"
 			ruler = yes
-			culture = cu:manchu
-			religion = rel:tengri_pagan_reformed
-			birth_date = 1424.1.1
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1425.11.11
 			traits = {
-				meticulous 
+				basic_political_operator imperious 
 			}
 		}
 

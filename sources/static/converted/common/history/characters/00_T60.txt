@@ -1,13 +1,14 @@
 ﻿CHARACTERS = {
 	c:T60 = {
 		create_character = {
-			first_name = "Gerhard_III"
+			first_name = "Keda"
+			last_name = "Mahamat"
 			ruler = yes
-			culture = cu:north_german
-			religion = rel:catholic
-			birth_date = 1382.7.9
+			culture = cu:teda
+			religion = rel:sunni
+			birth_date = 1423.1.1
 			traits = {
-				hedonist 
+				tactful 
 			}
 		}
 

@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:W68 = {
 		create_character = {
-			first_name = "Achmad"
-			last_name = "Jambi"
+			first_name = "Tarabya"
+			last_name = "Kale"
 			ruler = yes
-			culture = cu:sumatran
-			religion = rel:sunni
-			birth_date = 1425.1.1
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1399.1.1
 			traits = {
-				cruel 
+				arrogant 
 			}
 		}
 

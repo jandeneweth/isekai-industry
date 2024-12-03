@@ -1,13 +1,26 @@
 ﻿CHARACTERS = {
 	c:U24 = {
 		create_character = {
-			first_name = "Chinnabie_Chebona"
-			ruler = yes
-			culture = cu:muskogean
-			religion = rel:animist
-			birth_date = 1423.11.11
+			first_name = "Mahmud_Malik_az-Zahir"
+			last_name = "Pasai"
+			heir = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1410.1.1
 			traits = {
-				basic_political_operator 
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Abu_Zaid_Malik_az-Zahir"
+			last_name = "Pasai"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1394.1.1
+			traits = {
+				basic_political_operator innovative 
 			}
 		}
 

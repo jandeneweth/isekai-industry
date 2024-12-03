@@ -1,14 +1,13 @@
 ﻿CHARACTERS = {
 	c:X61 = {
 		create_character = {
-			first_name = "Albrecht_I_Achilles"
-			last_name = "von_Hohenzollern"
+			first_name = "Stilnaleeje_Osceola"
 			ruler = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1414.11.9
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1424.11.11
 			traits = {
-				imposing 
+				alcoholic 
 			}
 		}
 

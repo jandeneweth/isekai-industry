@@ -1,14 +1,13 @@
 ﻿CHARACTERS = {
 	c:X96 = {
 		create_character = {
-			first_name = "Nisiha"
-			last_name = "Hurha"
+			first_name = "Ahatsistari_Anioton"
 			ruler = yes
-			culture = cu:manchu
-			religion = rel:tengri_pagan_reformed
-			birth_date = 1425.1.1
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1423.11.11
 			traits = {
-				arrogant 
+				basic_diplomat 
 			}
 		}
 

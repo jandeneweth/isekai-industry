@@ -1,13 +1,13 @@
 ﻿CHARACTERS = {
 	c:T56 = {
 		create_character = {
-			first_name = "Philipp_Naxleden"
+			first_name = "Obanahah_Cathlamet"
 			ruler = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1408.11.11
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1425.11.11
 			traits = {
-				innovative 
+				basic_colonial_administrator 
 			}
 		}
 

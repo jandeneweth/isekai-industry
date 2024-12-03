@@ -1,14 +1,26 @@
 ﻿CHARACTERS = {
 	c:U95 = {
 		create_character = {
-			first_name = "Khairun_Jamil"
-			last_name = "Tidore"
-			ruler = yes
-			culture = cu:moluccan
-			religion = rel:animist
-			birth_date = 1410.1.1
+			first_name = "Dauid"
+			last_name = "Komnenos"
+			heir = yes
+			culture = cu:greek
+			religion = rel:orthodox
+			birth_date = 1408.1.1
 			traits = {
-				basic_political_operator reserved 
+				reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Ioannes_IV"
+			last_name = "Komnenos"
+			ruler = yes
+			culture = cu:greek
+			religion = rel:orthodox
+			birth_date = 1409.10.29
+			traits = {
+				basic_diplomat direct 
 			}
 		}
 

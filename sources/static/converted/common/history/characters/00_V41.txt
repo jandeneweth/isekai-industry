@@ -1,14 +1,26 @@
 ﻿CHARACTERS = {
 	c:V41 = {
 		create_character = {
-			first_name = "Amahau_I"
-			last_name = "Ngai_Takoto"
-			ruler = yes
-			culture = cu:maori
-			religion = rel:animist
-			birth_date = 1424.11.11
+			first_name = "Chandra"
+			last_name = "Malla"
+			heir = yes
+			culture = cu:bengali
+			religion = rel:hindu
+			birth_date = 1434.1.1
 			traits = {
-				experienced_political_operator meticulous 
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Uday"
+			last_name = "Malla"
+			ruler = yes
+			culture = cu:bengali
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				imposing 
 			}
 		}
 

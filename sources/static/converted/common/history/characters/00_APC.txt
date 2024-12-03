@@ -7,7 +7,7 @@
 			religion = rel:animist
 			birth_date = 1425.11.11
 			traits = {
-				cocaine_addiction 
+				opium_addiction 
 			}
 		}
 

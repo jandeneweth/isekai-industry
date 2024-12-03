@@ -341,6 +341,15 @@ baganda_standard_of_living_modifier_negative = {
 	state_baganda_standard_of_living_add = 1
 }
 
+bageli_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bageli_standard_of_living_add = 1
+}
+bageli_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bageli_standard_of_living_add = 1
+}
+
 baguirmi_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_baguirmi_standard_of_living_add = 1
@@ -584,6 +593,15 @@ bulgarian_standard_of_living_modifier_negative = {
 	state_bulgarian_standard_of_living_add = 1
 }
 
+bundeli_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bundeli_standard_of_living_add = 1
+}
+bundeli_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bundeli_standard_of_living_add = 1
+}
+
 burmese_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_burmese_standard_of_living_add = 1
@@ -726,6 +744,15 @@ chewa_standard_of_living_modifier_positive = {
 chewa_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_chewa_standard_of_living_add = 1
+}
+
+chhattisgarhi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_chhattisgarhi_standard_of_living_add = 1
+}
+chhattisgarhi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_chhattisgarhi_standard_of_living_add = 1
 }
 
 chichimecan_standard_of_living_modifier_positive = {
@@ -879,6 +906,15 @@ dayak_standard_of_living_modifier_positive = {
 dayak_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_dayak_standard_of_living_add = 1
+}
+
+deccani_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_deccani_standard_of_living_add = 1
+}
+deccani_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_deccani_standard_of_living_add = 1
 }
 
 dinka_standard_of_living_modifier_positive = {
@@ -1293,6 +1329,15 @@ herero_standard_of_living_modifier_positive = {
 herero_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_herero_standard_of_living_add = 1
+}
+
+hindustani_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hindustani_standard_of_living_add = 1
+}
+hindustani_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hindustani_standard_of_living_add = 1
 }
 
 hokan_standard_of_living_modifier_positive = {
@@ -1727,6 +1772,15 @@ luri_standard_of_living_modifier_negative = {
 	state_luri_standard_of_living_add = 1
 }
 
+lushai_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_lushai_standard_of_living_add = 1
+}
+lushai_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_lushai_standard_of_living_add = 1
+}
+
 maasai_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_maasai_standard_of_living_add = 1
@@ -2078,6 +2132,15 @@ muskogean_standard_of_living_modifier_negative = {
 	state_muskogean_standard_of_living_add = 1
 }
 
+naga_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_naga_standard_of_living_add = 1
+}
+naga_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_naga_standard_of_living_add = 1
+}
+
 nahua_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_nahua_standard_of_living_add = 1
@@ -2303,6 +2366,15 @@ ovimbundu_standard_of_living_modifier_negative = {
 	state_ovimbundu_standard_of_living_add = 1
 }
 
+pahari_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_pahari_standard_of_living_add = 1
+}
+pahari_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_pahari_standard_of_living_add = 1
+}
+
 paiute_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_paiute_standard_of_living_add = 1
@@ -2355,6 +2427,15 @@ patagonian_standard_of_living_modifier_positive = {
 patagonian_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_patagonian_standard_of_living_add = 1
+}
+
+pathan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_pathan_standard_of_living_add = 1
+}
+pathan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_pathan_standard_of_living_add = 1
 }
 
 paulista_standard_of_living_modifier_positive = {

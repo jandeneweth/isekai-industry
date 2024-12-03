@@ -1,26 +1,26 @@
 ﻿CHARACTERS = {
 	c:X32 = {
 		create_character = {
-			first_name = "Bertrand"
-			last_name = "de_la_Tour"
+			first_name = "Thihathura"
+			last_name = "Ava"
 			heir = yes
-			culture = cu:occitan
-			religion = rel:catholic
-			birth_date = 1417.1.1
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1431.5.1
 			traits = {
-				bigoted 
+				trait_child 
 			}
 		}
 
 		create_character = {
-			first_name = "Bertrand_II"
-			last_name = "de_la_Tour"
+			first_name = "Narapati"
+			last_name = "Ava"
 			ruler = yes
-			culture = cu:occitan
-			religion = rel:catholic
-			birth_date = 1390.1.1
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1421.4.25
 			traits = {
-				tactful 
+				basic_colonial_administrator imposing 
 			}
 		}
 

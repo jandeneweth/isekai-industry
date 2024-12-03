@@ -1,13 +1,26 @@
 ﻿CHARACTERS = {
 	c:U36 = {
 		create_character = {
-			first_name = "Leonhard_von_Laiming"
-			ruler = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1381.1.1
+			first_name = "Omer"
+			last_name = "Ramazanoglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1439.1.1
 			traits = {
-				ambitious 
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Dundar_I"
+			last_name = "Ramazanoglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1415.1.1
+			traits = {
+				tactful 
 			}
 		}
 

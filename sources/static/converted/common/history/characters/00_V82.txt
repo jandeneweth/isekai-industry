@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:V82 = {
 		create_character = {
-			first_name = "Muhammad_ibn_Falah"
-			last_name = "Musha_sha_iya"
+			first_name = "Maharato"
+			last_name = "Nagavamsi"
 			ruler = yes
-			culture = cu:mashriqi
-			religion = rel:shiite
-			birth_date = 1422.1.16
+			culture = cu:bihari
+			religion = rel:hindu
+			birth_date = 1422.1.1
 			traits = {
-				basic_political_operator bigoted 
+				hedonist 
 			}
 		}
 

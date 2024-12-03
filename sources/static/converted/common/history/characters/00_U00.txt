@@ -1,13 +1,27 @@
 ﻿CHARACTERS = {
 	c:U00 = {
 		create_character = {
-			first_name = "Peter_Welser_von_Neunhof_und_zu_Beerbach"
-			ruler = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1393.11.11
+			first_name = "Putri_Wanang_Seri"
+			last_name = "Pahang"
+			heir = yes
+			female = yes
+			culture = cu:malay
+			religion = rel:mahayana
+			birth_date = 1425.1.1
 			traits = {
-				basic_political_operator innovative 
+				arrogant basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Dewa_Sura"
+			last_name = "Pahang"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:mahayana
+			birth_date = 1380.1.1
+			traits = {
+				basic_colonial_administrator reserved 
 			}
 		}
 

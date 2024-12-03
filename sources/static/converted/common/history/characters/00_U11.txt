@@ -1,14 +1,26 @@
 ﻿CHARACTERS = {
 	c:U11 = {
 		create_character = {
-			first_name = "Tsoede"
-			last_name = "Etsu_Nupe"
-			ruler = yes
-			culture = cu:ibo
-			religion = rel:sunni
-			birth_date = 1425.1.1
+			first_name = "Friedrich"
+			last_name = "von_Wittelsbach"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1425.8.1
 			traits = {
-				basic_political_operator hedonist 
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Ludwig_IV"
+			last_name = "von_Wittelsbach"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1424.1.1
+			traits = {
+				direct 
 			}
 		}
 

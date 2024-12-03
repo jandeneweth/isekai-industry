@@ -1,13 +1,26 @@
 ﻿CHARACTERS = {
 	c:W38 = {
 		create_character = {
-			first_name = "Heinrich_Alvensleben"
-			ruler = yes
-			culture = cu:north_german
-			religion = rel:catholic
-			birth_date = 1406.11.11
+			first_name = "Rudra"
+			last_name = "Sen"
+			heir = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1440.1.1
 			traits = {
-				experienced_colonial_administrator honorable 
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Chandra"
+			last_name = "Sen"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				bigoted 
 			}
 		}
 

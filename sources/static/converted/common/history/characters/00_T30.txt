@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:T30 = {
 		create_character = {
-			first_name = "Akil"
-			last_name = "Akamalwal"
+			first_name = "Iotama_I"
+			last_name = "Ngati_Tamaoho"
 			ruler = yes
-			culture = cu:tuareg
-			religion = rel:sunni
-			birth_date = 1413.1.1
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1423.11.11
 			traits = {
-				ambitious 
+				innovative 
 			}
 		}
 

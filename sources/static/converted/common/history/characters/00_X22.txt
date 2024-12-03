@@ -6,7 +6,7 @@
 			commander_rank = commander_rank_2
 			birth_date = 1427.1.1
 			traits = {
-				cocaine_addiction 
+				opium_addiction 
 			}
 		}
 

@@ -8,7 +8,7 @@
 			religion = rel:mahayana
 			birth_date = 1441.1.1
 			traits = {
-				cocaine_addiction trait_child 
+				opium_addiction trait_child 
 			}
 		}
 

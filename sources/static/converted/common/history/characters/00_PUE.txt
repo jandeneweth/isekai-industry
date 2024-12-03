@@ -7,7 +7,7 @@
 			religion = rel:animist
 			birth_date = 1423.11.11
 			traits = {
-				grifter 
+				inexperienced 
 			}
 		}
 

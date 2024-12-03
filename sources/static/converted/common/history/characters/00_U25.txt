@@ -1,13 +1,14 @@
 ﻿CHARACTERS = {
 	c:U25 = {
 		create_character = {
-			first_name = "Kenmahreneah_Chepoussa"
+			first_name = "Aleksandr_VI"
+			last_name = "Chartoryski"
 			ruler = yes
-			culture = cu:algonquian
-			religion = rel:animist
-			birth_date = 1423.11.11
+			culture = cu:russian
+			religion = rel:orthodox
+			birth_date = 1400.1.1
 			traits = {
-				basic_diplomat 
+				reserved 
 			}
 		}
 

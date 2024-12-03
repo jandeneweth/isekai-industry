@@ -28,11 +28,11 @@
 	}
 	c:BYZ = {
 		create_diplomatic_pact = {
-			country = c:X28
+			country = c:X27
 			type = puppet
 		}
 	}
-	c:X28 = {
+	c:X27 = {
 		add_liberty_desire = -31.575
 	}
 	c:HUN = {
@@ -73,38 +73,38 @@
 	}
 	c:UNL = {
 		create_diplomatic_pact = {
-			country = c:X52
+			country = c:X50
 			type = personal_union
 		}
 	}
-	c:X52 = {
+	c:X50 = {
 		add_liberty_desire = -40.65
 	}
 	c:UNL = {
 		create_diplomatic_pact = {
-			country = c:W51
+			country = c:W47
 			type = personal_union
 		}
 	}
-	c:W51 = {
+	c:W47 = {
 		add_liberty_desire = -44.4
 	}
 	c:UNL = {
 		create_diplomatic_pact = {
-			country = c:V91
+			country = c:V81
 			type = puppet
 		}
 	}
-	c:V91 = {
+	c:V81 = {
 		add_liberty_desire = -50
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:U17
+			country = c:V97
 			type = puppet
 		}
 	}
-	c:U17 = {
+	c:V97 = {
 		add_liberty_desire = -2.575
 	}
 	c:FRA = {
@@ -118,176 +118,176 @@
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:X32
+			country = c:X31
 			type = puppet
 		}
 	}
-	c:X32 = {
+	c:X31 = {
 		add_liberty_desire = -19.95
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:W24
+			country = c:W03
 			type = puppet
 		}
 	}
-	c:W24 = {
+	c:W03 = {
 		add_liberty_desire = -17.275
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:X48
+			country = c:X46
 			type = puppet
 		}
 	}
-	c:X48 = {
+	c:X46 = {
 		add_liberty_desire = -17.1
 	}
-	c:U33 = {
+	c:U23 = {
 		create_diplomatic_pact = {
-			country = c:V36
+			country = c:V26
 			type = personal_union
 		}
 	}
-	c:V36 = {
+	c:V26 = {
 		add_liberty_desire = -35
 	}
 	c:BOH = {
 		create_diplomatic_pact = {
-			country = c:W34
+			country = c:W31
 			type = puppet
 		}
 	}
-	c:W34 = {
+	c:W31 = {
 		add_liberty_desire = -35.625
 	}
 	c:BOH = {
 		create_diplomatic_pact = {
-			country = c:U16
+			country = c:V96
 			type = puppet
 		}
 	}
-	c:U16 = {
+	c:V96 = {
 		add_liberty_desire = -33.125
 	}
 	c:SAX = {
 		create_diplomatic_pact = {
-			country = c:U94
+			country = c:U83
 			type = personal_union
 		}
 	}
-	c:U94 = {
+	c:U83 = {
 		add_liberty_desire = -21
 	}
-	c:T65 = {
+	c:T53 = {
 		create_diplomatic_pact = {
-			country = c:X36
+			country = c:X35
 			type = puppet
 		}
 	}
-	c:X36 = {
+	c:X35 = {
 		add_liberty_desire = -37.825
 	}
 	c:X22 = {
 		create_diplomatic_pact = {
-			country = c:V88
+			country = c:V78
 			type = personal_union
 		}
 	}
-	c:V88 = {
+	c:V78 = {
 		add_liberty_desire = -18.625
 	}
 	c:PAP = {
 		create_diplomatic_pact = {
-			country = c:T57
+			country = c:T45
 			type = puppet
 		}
 	}
-	c:T57 = {
+	c:T45 = {
 		add_liberty_desire = -27.85
 	}
 	c:PAP = {
 		create_diplomatic_pact = {
-			country = c:U27
+			country = c:U17
 			type = puppet
 		}
 	}
-	c:U27 = {
+	c:U17 = {
 		add_liberty_desire = -27.35
 	}
 	c:SAV = {
 		create_diplomatic_pact = {
-			country = c:W35
+			country = c:W32
 			type = puppet
 		}
 	}
-	c:W35 = {
+	c:W32 = {
 		add_liberty_desire = -26.325
 	}
 	c:SAV = {
 		create_diplomatic_pact = {
-			country = c:V59
+			country = c:V49
 			type = puppet
 		}
 	}
-	c:V59 = {
+	c:V49 = {
 		add_liberty_desire = -28.075
 	}
 	c:VEN = {
 		create_diplomatic_pact = {
-			country = c:V89
+			country = c:V79
 			type = puppet
 		}
 	}
-	c:V89 = {
+	c:V79 = {
 		add_liberty_desire = -50
 	}
 	c:GEO = {
 		create_diplomatic_pact = {
-			country = c:U70
+			country = c:U59
 			type = puppet
 		}
 	}
-	c:U70 = {
+	c:U59 = {
 		add_liberty_desire = -30.375
 	}
-	c:V77 = {
+	c:V67 = {
 		create_diplomatic_pact = {
-			country = c:U35
+			country = c:U25
 			type = puppet
 		}
 	}
-	c:U35 = {
+	c:U25 = {
 		add_liberty_desire = -19.575
 	}
-	c:V77 = {
+	c:V67 = {
 		create_diplomatic_pact = {
-			country = c:T73
+			country = c:T61
 			type = puppet
 		}
 	}
-	c:T73 = {
+	c:T61 = {
 		add_liberty_desire = -28.825
 	}
-	c:V77 = {
+	c:V67 = {
 		create_diplomatic_pact = {
-			country = c:X44
+			country = c:X42
 			type = puppet
 		}
 	}
-	c:X44 = {
+	c:X42 = {
 		add_liberty_desire = -29.575
 	}
-	c:V77 = {
+	c:V67 = {
 		create_diplomatic_pact = {
-			country = c:U53
+			country = c:U42
 			type = puppet
 		}
 	}
-	c:U53 = {
+	c:U42 = {
 		add_liberty_desire = -30.575
 	}
-	c:V77 = {
+	c:V67 = {
 		create_diplomatic_pact = {
 			country = c:PRM
 			type = puppet
@@ -316,59 +316,59 @@
 	}
 	c:EGY = {
 		create_diplomatic_pact = {
-			country = c:X99
+			country = c:X97
 			type = vassal
 		}
 	}
-	c:X99 = {
+	c:X97 = {
 		add_liberty_desire = -18.825
 	}
 	c:MOR = {
 		create_diplomatic_pact = {
-			country = c:U93
+			country = c:U82
 			type = vassal
 		}
 	}
-	c:U93 = {
+	c:U82 = {
 		add_liberty_desire = -14.35
 	}
 	c:MOR = {
 		create_diplomatic_pact = {
-			country = c:U73
+			country = c:U62
 			type = vassal
 		}
 	}
-	c:U73 = {
+	c:U62 = {
 		add_liberty_desire = -13.1
 	}
 	c:MOR = {
 		create_diplomatic_pact = {
-			country = c:V81
+			country = c:V71
 			type = vassal
 		}
 	}
-	c:V81 = {
+	c:V71 = {
 		add_liberty_desire = -15.1
 	}
-	c:U40 = {
+	c:U29 = {
 		create_diplomatic_pact = {
-			country = c:X58
+			country = c:X56
 			type = puppet
 		}
 	}
-	c:X58 = {
+	c:X56 = {
 		add_liberty_desire = -32.65
 	}
-	c:U40 = {
+	c:U29 = {
 		create_diplomatic_pact = {
-			country = c:V70
+			country = c:V60
 			type = puppet
 		}
 	}
-	c:V70 = {
+	c:V60 = {
 		add_liberty_desire = -37.15
 	}
-	c:U96 = {
+	c:U85 = {
 		create_diplomatic_pact = {
 			country = c:TJI
 			type = vassal
@@ -377,7 +377,7 @@
 	c:TJI = {
 		add_liberty_desire = 19.375
 	}
-	c:U96 = {
+	c:U85 = {
 		create_diplomatic_pact = {
 			country = c:AFG
 			type = vassal
@@ -386,7 +386,7 @@
 	c:AFG = {
 		add_liberty_desire = -0.625
 	}
-	c:U96 = {
+	c:U85 = {
 		create_diplomatic_pact = {
 			country = c:ARB
 			type = vassal
@@ -395,22 +395,22 @@
 	c:ARB = {
 		add_liberty_desire = 0.875
 	}
-	c:U96 = {
+	c:U85 = {
 		create_diplomatic_pact = {
-			country = c:W85
+			country = c:W78
 			type = vassal
 		}
 	}
-	c:W85 = {
+	c:W78 = {
 		add_liberty_desire = -7.375
 	}
-	c:U96 = {
+	c:U85 = {
 		create_diplomatic_pact = {
-			country = c:U65
+			country = c:U54
 			type = vassal
 		}
 	}
-	c:U65 = {
+	c:U54 = {
 		add_liberty_desire = -1.375
 	}
 	c:DAG = {
@@ -422,7 +422,7 @@
 	c:A15 = {
 		add_liberty_desire = -35.65
 	}
-	c:U44 = {
+	c:U33 = {
 		create_diplomatic_pact = {
 			country = c:KUR
 			type = vassal
@@ -431,7 +431,7 @@
 	c:KUR = {
 		add_liberty_desire = -32.775
 	}
-	c:U44 = {
+	c:U33 = {
 		create_diplomatic_pact = {
 			country = c:LUR
 			type = vassal
@@ -451,20 +451,20 @@
 	}
 	c:ETH = {
 		create_diplomatic_pact = {
-			country = c:W48
+			country = c:W44
 			type = vassal
 		}
 	}
-	c:W48 = {
+	c:W44 = {
 		add_liberty_desire = -26.2
 	}
 	c:KON = {
 		create_diplomatic_pact = {
-			country = c:V90
+			country = c:V80
 			type = puppet
 		}
 	}
-	c:V90 = {
+	c:V80 = {
 		add_liberty_desire = -20.55
 	}
 	c:KON = {
@@ -476,58 +476,58 @@
 	c:LNG = {
 		add_liberty_desire = -20.3
 	}
-	c:T78 = {
+	c:T66 = {
 		create_diplomatic_pact = {
-			country = c:U62
+			country = c:U51
 			type = puppet
 		}
 	}
-	c:U62 = {
+	c:U51 = {
 		add_liberty_desire = -42.775
 	}
-	c:T80 = {
+	c:T68 = {
 		create_diplomatic_pact = {
-			country = c:U57
+			country = c:U46
 			type = puppet
 		}
 	}
-	c:U57 = {
+	c:U46 = {
 		add_liberty_desire = -45.1
 	}
 	c:X11 = {
 		create_diplomatic_pact = {
-			country = c:V55
+			country = c:V45
 			type = vassal
 		}
 	}
-	c:V55 = {
+	c:V45 = {
 		add_liberty_desire = -40.525
 	}
 	c:MRV = {
 		create_diplomatic_pact = {
-			country = c:V29
+			country = c:V19
 			type = puppet
 		}
 	}
-	c:V29 = {
+	c:V19 = {
 		add_liberty_desire = -29.775
 	}
 	c:SIA = {
 		create_diplomatic_pact = {
-			country = c:V32
+			country = c:V22
 			type = vassal
 		}
 	}
-	c:V32 = {
+	c:V22 = {
 		add_liberty_desire = -37.794
 	}
 	c:SIA = {
 		create_diplomatic_pact = {
-			country = c:U79
+			country = c:U68
 			type = vassal
 		}
 	}
-	c:U79 = {
+	c:U68 = {
 		add_liberty_desire = -35.794
 	}
 	c:KYR = {
@@ -541,11 +541,11 @@
 	}
 	c:JAV = {
 		create_diplomatic_pact = {
-			country = c:X46
+			country = c:X44
 			type = tributary
 		}
 	}
-	c:X46 = {
+	c:X44 = {
 		add_liberty_desire = -14.8
 	}
 	c:JAV = {
@@ -559,11 +559,11 @@
 	}
 	c:JAV = {
 		create_diplomatic_pact = {
-			country = c:X43
+			country = c:X41
 			type = tributary
 		}
 	}
-	c:X43 = {
+	c:X41 = {
 		add_liberty_desire = -21.375
 	}
 	c:JAV = {
@@ -577,11 +577,11 @@
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:V18
+			country = c:W95
 			type = tributary
 		}
 	}
-	c:V18 = {
+	c:W95 = {
 		add_liberty_desire = -19.325
 	}
 	c:CHI = {
@@ -622,20 +622,20 @@
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:U83
+			country = c:U72
 			type = tributary
 		}
 	}
-	c:U83 = {
+	c:U72 = {
 		add_liberty_desire = -32.85
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:W49
+			country = c:W45
 			type = tributary
 		}
 	}
-	c:W49 = {
+	c:W45 = {
 		add_liberty_desire = -31.275
 	}
 	c:CHI = {
@@ -667,20 +667,20 @@
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:V72
+			country = c:V62
 			type = tributary
 		}
 	}
-	c:V72 = {
+	c:V62 = {
 		add_liberty_desire = -46.8
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:U28
+			country = c:U18
 			type = tributary
 		}
 	}
-	c:U28 = {
+	c:U18 = {
 		add_liberty_desire = -50
 	}
 	c:CHI = {
@@ -694,29 +694,29 @@
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:V66
+			country = c:V56
 			type = tributary
 		}
 	}
-	c:V66 = {
+	c:V56 = {
 		add_liberty_desire = -24.4
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:V63
+			country = c:V53
 			type = tributary
 		}
 	}
-	c:V63 = {
+	c:V53 = {
 		add_liberty_desire = -32.2
 	}
 	c:CHI = {
 		create_diplomatic_pact = {
-			country = c:V79
+			country = c:V69
 			type = tributary
 		}
 	}
-	c:V79 = {
+	c:V69 = {
 		add_liberty_desire = -49.575
 	}
 	c:ALI = {
@@ -728,16 +728,16 @@
 	c:MGL = {
 		add_liberty_desire = 8.55
 	}
-	c:X35 = {
+	c:X34 = {
 		create_diplomatic_pact = {
-			country = c:U99
+			country = c:U88
 			type = vassal
 		}
 	}
-	c:U99 = {
+	c:U88 = {
 		add_liberty_desire = -43.925
 	}
-	c:X88 = {
+	c:X86 = {
 		create_diplomatic_pact = {
 			country = c:BIK
 			type = vassal
@@ -746,61 +746,61 @@
 	c:BIK = {
 		add_liberty_desire = 10.025
 	}
-	c:X88 = {
+	c:X86 = {
 		create_diplomatic_pact = {
-			country = c:U74
+			country = c:U63
 			type = vassal
 		}
 	}
-	c:U74 = {
+	c:U63 = {
 		add_liberty_desire = 35.275
 	}
-	c:T61 = {
+	c:T49 = {
 		create_diplomatic_pact = {
-			country = c:W63
+			country = c:W58
 			type = vassal
 		}
 	}
-	c:W63 = {
+	c:W58 = {
 		add_liberty_desire = -50
 	}
-	c:W43 = {
+	c:GUJ = {
 		create_diplomatic_pact = {
-			country = c:W84
+			country = c:W77
 			type = vassal
 		}
 	}
-	c:W84 = {
+	c:W77 = {
 		add_liberty_desire = -36.125
 	}
-	c:W71 = {
+	c:W65 = {
 		create_diplomatic_pact = {
-			country = c:X40
+			country = c:BAG
 			type = vassal
 		}
 	}
-	c:X40 = {
+	c:BAG = {
 		add_liberty_desire = -50
 	}
-	c:V71 = {
+	c:V61 = {
 		create_diplomatic_pact = {
-			country = c:W29
+			country = c:W27
 			type = vassal
 		}
 	}
-	c:W29 = {
+	c:W27 = {
 		add_liberty_desire = 24.375
 	}
-	c:V71 = {
+	c:V61 = {
 		create_diplomatic_pact = {
-			country = c:W95
+			country = c:W88
 			type = vassal
 		}
 	}
-	c:W95 = {
+	c:W88 = {
 		add_liberty_desire = 8.875
 	}
-	c:V71 = {
+	c:V61 = {
 		create_diplomatic_pact = {
 			country = c:BUN
 			type = vassal
@@ -811,104 +811,104 @@
 	}
 	c:MEW = {
 		create_diplomatic_pact = {
-			country = c:W46
+			country = c:W42
 			type = vassal
 		}
 	}
-	c:W46 = {
+	c:W42 = {
 		add_liberty_desire = -39.3
 	}
 	c:ORI = {
 		create_diplomatic_pact = {
-			country = c:W40
+			country = c:W37
 			type = vassal
 		}
 	}
-	c:W40 = {
+	c:W37 = {
 		add_liberty_desire = -15.575
 	}
 	c:ORI = {
 		create_diplomatic_pact = {
-			country = c:U32
+			country = c:U22
 			type = vassal
 		}
 	}
-	c:U32 = {
+	c:U22 = {
 		add_liberty_desire = -22.575
 	}
 	c:ORI = {
+		create_diplomatic_pact = {
+			country = c:W84
+			type = vassal
+		}
+	}
+	c:W84 = {
+		add_liberty_desire = -15.825
+	}
+	c:ORI = {
+		create_diplomatic_pact = {
+			country = c:JEY
+			type = vassal
+		}
+	}
+	c:JEY = {
+		add_liberty_desire = -16.075
+	}
+	c:CEY = {
 		create_diplomatic_pact = {
 			country = c:W91
 			type = vassal
 		}
 	}
 	c:W91 = {
-		add_liberty_desire = -15.825
-	}
-	c:ORI = {
-		create_diplomatic_pact = {
-			country = c:W72
-			type = vassal
-		}
-	}
-	c:W72 = {
-		add_liberty_desire = -16.075
-	}
-	c:CEY = {
-		create_diplomatic_pact = {
-			country = c:W99
-			type = vassal
-		}
-	}
-	c:W99 = {
 		add_liberty_desire = -37.975
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
-			country = c:W75
+			country = c:W68
 			type = tributary
 		}
 	}
-	c:W75 = {
+	c:W68 = {
 		add_liberty_desire = -33.95
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
-			country = c:W55
+			country = c:W51
 			type = tributary
 		}
 	}
-	c:W55 = {
+	c:W51 = {
 		add_liberty_desire = -25.05
 	}
-	c:X33 = {
-		create_diplomatic_pact = {
-			country = c:V85
-			type = tributary
-		}
-	}
-	c:V85 = {
-		add_liberty_desire = -22.6
-	}
-	c:X33 = {
-		create_diplomatic_pact = {
-			country = c:V78
-			type = tributary
-		}
-	}
-	c:V78 = {
-		add_liberty_desire = -26.85
-	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
 			country = c:V75
 			type = tributary
 		}
 	}
 	c:V75 = {
+		add_liberty_desire = -22.6
+	}
+	c:X32 = {
+		create_diplomatic_pact = {
+			country = c:V68
+			type = tributary
+		}
+	}
+	c:V68 = {
+		add_liberty_desire = -26.85
+	}
+	c:X32 = {
+		create_diplomatic_pact = {
+			country = c:V65
+			type = tributary
+		}
+	}
+	c:V65 = {
 		add_liberty_desire = -26.625
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
 			country = c:KHN
 			type = tributary
@@ -917,25 +917,25 @@
 	c:KHN = {
 		add_liberty_desire = -21.275
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
-			country = c:W54
+			country = c:W50
 			type = tributary
 		}
 	}
-	c:W54 = {
+	c:W50 = {
 		add_liberty_desire = -25.45
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
-			country = c:X50
+			country = c:X48
 			type = tributary
 		}
 	}
-	c:X50 = {
+	c:X48 = {
 		add_liberty_desire = -33.9
 	}
-	c:X33 = {
+	c:X32 = {
 		create_diplomatic_pact = {
 			country = c:BUR
 			type = tributary
@@ -944,13 +944,13 @@
 	c:BUR = {
 		add_liberty_desire = -32.1
 	}
-	c:T55 = {
+	c:T43 = {
 		create_diplomatic_pact = {
-			country = c:U36
+			country = c:U26
 			type = puppet
 		}
 	}
-	c:U36 = {
+	c:U26 = {
 		add_liberty_desire = -42.925
 	}
 }

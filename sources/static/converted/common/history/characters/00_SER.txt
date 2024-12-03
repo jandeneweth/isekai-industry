@@ -20,7 +20,7 @@
 			religion = rel:orthodox
 			birth_date = 1400.1.1
 			traits = {
-				cautious 
+				compliant 
 			}
 		}
 

@@ -303,6 +303,14 @@ state_baganda_standard_of_living_add = {
 	}
 }
 
+state_bageli_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_baguirmi_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -519,6 +527,14 @@ state_bulgarian_standard_of_living_add = {
 	}
 }
 
+state_bundeli_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_burmese_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -640,6 +656,14 @@ state_cherokee_standard_of_living_add = {
 }
 
 state_chewa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_chhattisgarhi_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
@@ -776,6 +800,14 @@ state_danish_standard_of_living_add = {
 }
 
 state_dayak_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_deccani_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
@@ -1144,6 +1176,14 @@ state_hazara_standard_of_living_add = {
 }
 
 state_herero_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hindustani_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
@@ -1535,6 +1575,14 @@ state_luri_standard_of_living_add = {
 	}
 }
 
+state_lushai_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_maasai_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -1847,6 +1895,14 @@ state_muskogean_standard_of_living_add = {
 	}
 }
 
+state_naga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_nahua_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -2047,6 +2103,14 @@ state_ovimbundu_standard_of_living_add = {
 	}
 }
 
+state_pahari_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_paiute_standard_of_living_add = {
 	decimals=1
 	color=good
@@ -2088,6 +2152,14 @@ state_pashtun_standard_of_living_add = {
 }
 
 state_patagonian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pathan_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={

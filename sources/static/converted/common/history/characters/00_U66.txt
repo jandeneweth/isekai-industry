@@ -1,15 +1,11 @@
 ﻿CHARACTERS = {
 	c:U66 = {
 		create_character = {
-			first_name = "Andrianalimbe"
-			last_name = "Marorasena"
+			first_name = "Teyyaghtwa_Oukhahitoua"
 			ruler = yes
-			culture = cu:malagasy
+			culture = cu:iroquoian
 			religion = rel:animist
-			birth_date = 1424.1.1
-			traits = {
-				ambitious basic_political_operator 
-			}
+			birth_date = 1425.11.11
 		}
 
 	}

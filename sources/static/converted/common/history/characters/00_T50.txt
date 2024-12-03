@@ -1,13 +1,14 @@
 ﻿CHARACTERS = {
 	c:T50 = {
 		create_character = {
-			first_name = "Charles_Miller"
+			first_name = "Native_Council"
+			last_name = "Bambang"
 			ruler = yes
-			culture = cu:alemannic
-			religion = rel:catholic
-			birth_date = 1410.11.11
+			culture = cu:melanesian
+			religion = rel:animist
+			birth_date = 1398.11.11
 			traits = {
-				basic_political_operator cruel 
+				basic_political_operator 
 			}
 		}
 

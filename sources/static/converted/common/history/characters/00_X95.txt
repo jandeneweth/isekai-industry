@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:X95 = {
 		create_character = {
-			first_name = "Enno_Edzardisna"
-			last_name = "Cirksena"
+			first_name = "Kaba_Siyon"
+			last_name = "Hinnare"
 			ruler = yes
-			culture = cu:dutch
-			religion = rel:catholic
-			birth_date = 1380.1.1
+			culture = cu:sidama
+			religion = rel:oriental_orthodox
+			birth_date = 1425.1.1
 			traits = {
-				charismatic 
+				basic_political_operator imperious 
 			}
 		}
 

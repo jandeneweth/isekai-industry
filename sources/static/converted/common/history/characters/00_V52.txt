@@ -1,42 +1,26 @@
 ﻿CHARACTERS = {
 	c:V52 = {
 		create_character = {
-			first_name = "Ursula"
-			last_name = "von_Montfort-Bregenz"
+			first_name = "Tabunaway"
+			last_name = "Maguindanao"
 			heir = yes
-			female = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1430.1.1
+			culture = cu:filipino
+			religion = rel:animist
+			birth_date = 1444.1.1
 			traits = {
-				basic_political_operator 
+				basic_diplomat trait_child 
 			}
 		}
 
 		create_character = {
-			first_name = "Wilhelm"
-			last_name = "von_Hachberg-Sausenberg"
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1406.7.11
-			traits = {
-				basic_political_operator cautious 
-			}
-		}
-
-		create_character = {
-			first_name = "Elisabeth_II"
-			last_name = "von_Montfort-Bregenz"
+			first_name = "Maraja"
+			last_name = "Maguindanao"
 			ruler = yes
-			female = yes
-			culture = cu:south_german
-			religion = rel:catholic
-			birth_date = 1395.1.1
+			culture = cu:filipino
+			religion = rel:animist
+			birth_date = 1426.1.1
 			traits = {
-				basic_diplomat persistent 
-			}
-			on_created = {
-				set_variable = is_married
+				hedonist 
 			}
 		}
 

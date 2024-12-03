@@ -1,14 +1,26 @@
 ﻿CHARACTERS = {
 	c:V53 = {
 		create_character = {
-			first_name = "Domhnall_an_Dana"
-			last_name = "MacCarthy"
-			ruler = yes
-			culture = cu:irish
-			religion = rel:catholic
-			birth_date = 1410.1.1
+			first_name = "Sirugeminggedo"
+			last_name = "Yehe_Nara"
+			heir = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1420.1.1
 			traits = {
-				basic_political_operator cautious 
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Singgen_Darha"
+			last_name = "Yehe_Nara"
+			ruler = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1424.1.1
+			traits = {
+				basic_political_operator imposing 
 			}
 		}
 

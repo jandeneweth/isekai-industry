@@ -1,15 +1,11 @@
 ﻿CHARACTERS = {
 	c:X69 = {
 		create_character = {
-			first_name = "K_iq_ab_"
-			last_name = "Chorti"
+			first_name = "Totkeshajou_Yaholo"
 			ruler = yes
-			culture = cu:mayan
+			culture = cu:muskogean
 			religion = rel:animist
-			birth_date = 1417.1.1
-			traits = {
-				charismatic 
-			}
+			birth_date = 1425.11.11
 		}
 
 	}

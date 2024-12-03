@@ -1,14 +1,13 @@
 ﻿CHARACTERS = {
 	c:U14 = {
 		create_character = {
-			first_name = "Ahmed"
-			last_name = "Darod"
+			first_name = "Chinnabie_Chebona"
 			ruler = yes
-			culture = cu:somali
-			religion = rel:sunni
-			birth_date = 1422.1.1
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1423.11.11
 			traits = {
-				innovative 
+				basic_political_operator 
 			}
 		}
 

@@ -1,26 +1,14 @@
 ﻿CHARACTERS = {
 	c:X45 = {
 		create_character = {
-			first_name = "Barbak"
-			last_name = "Ilyas_Shahi"
-			heir = yes
-			culture = cu:bengali
-			religion = rel:sunni
-			birth_date = 1430.1.1
-			traits = {
-				direct experienced_political_operator 
-			}
-		}
-
-		create_character = {
-			first_name = "Nasir-ud-Din_Mahmud"
-			last_name = "Ilyas_Shahi"
+			first_name = "Nana_Yaw_Awere"
+			last_name = "Bonomanhene"
 			ruler = yes
-			culture = cu:bengali
-			religion = rel:sunni
-			birth_date = 1416.1.1
+			culture = cu:akan
+			religion = rel:animist
+			birth_date = 1424.1.1
 			traits = {
-				basic_colonial_administrator innovative 
+				meticulous 
 			}
 		}
 

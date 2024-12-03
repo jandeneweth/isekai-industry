@@ -1,13 +1,14 @@
 ﻿CHARACTERS = {
 	c:V84 = {
 		create_character = {
-			first_name = "Heinrich_II"
+			first_name = "Muhammad"
+			last_name = "Banu_Yam"
 			ruler = yes
-			culture = cu:north_german
-			religion = rel:catholic
-			birth_date = 1391.1.1
+			culture = cu:yemenite
+			religion = rel:shiite
+			birth_date = 1411.1.1
 			traits = {
-				direct 
+				imperious 
 			}
 		}
 

@@ -1,13 +1,14 @@
 ﻿CHARACTERS = {
 	c:X63 = {
 		create_character = {
-			first_name = "Stilnaleeje_Osceola"
+			first_name = "Acalan_I"
+			last_name = "Zacateco"
 			ruler = yes
-			culture = cu:muskogean
+			culture = cu:chichimecan
 			religion = rel:animist
 			birth_date = 1424.11.11
 			traits = {
-				grifter 
+				bigoted 
 			}
 		}
 

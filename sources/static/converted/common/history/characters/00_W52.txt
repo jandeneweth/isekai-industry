@@ -1,41 +1,26 @@
 ﻿CHARACTERS = {
 	c:W52 = {
 		create_character = {
-			first_name = "Vladislav"
-			last_name = "Kosaca"
+			first_name = "al-Kamil_Ahmad"
+			last_name = "Ayyubid"
 			heir = yes
-			culture = cu:bosniak
-			religion = rel:orthodox
-			birth_date = 1426.1.1
+			culture = cu:kurdish
+			religion = rel:sunni
+			birth_date = 1420.1.1
 			traits = {
-				arrogant 
+				charismatic 
 			}
 		}
 
 		create_character = {
-			first_name = "Jelena"
-			last_name = "Balsic"
-			female = yes
-			culture = cu:bosniak
-			religion = rel:catholic
-			birth_date = 1407.1.1
-			traits = {
-				basic_political_operator meticulous 
-			}
-		}
-
-		create_character = {
-			first_name = "Stjepan_I"
-			last_name = "Kosaca"
+			first_name = "al-Salih_Salah_al-Din"
+			last_name = "Ayyubid"
 			ruler = yes
-			culture = cu:bosniak
-			religion = rel:orthodox
-			birth_date = 1404.1.1
+			culture = cu:kurdish
+			religion = rel:sunni
+			birth_date = 1412.1.1
 			traits = {
-				experienced_diplomat wrathful 
-			}
-			on_created = {
-				set_variable = is_married
+				imperious 
 			}
 		}
 

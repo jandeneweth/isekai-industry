@@ -20,7 +20,7 @@
 			religion = rel:confucian
 			birth_date = 1417.1.31
 			traits = {
-				cautious 
+				compliant 
 			}
 		}
 

@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:U38 = {
 		create_character = {
-			first_name = "Banaji"
-			last_name = "Gohil"
+			first_name = "Tribal_Council"
+			last_name = "Panduranga"
 			ruler = yes
-			culture = cu:gujarati
-			religion = rel:hindu
-			birth_date = 1382.1.1
+			culture = cu:sumatran
+			religion = rel:animist
+			birth_date = 1399.1.1
 			traits = {
-				ambitious 
+				basic_political_operator 
 			}
 		}
 

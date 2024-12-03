@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:U18 = {
 		create_character = {
-			first_name = "Fakhr_al-Din"
-			last_name = "Turani"
+			first_name = "Liyu"
+			last_name = "Caboloan"
 			ruler = yes
-			culture = cu:bedouin
-			religion = rel:sunni
-			birth_date = 1423.1.1
+			culture = cu:filipino
+			religion = rel:mahayana
+			birth_date = 1390.1.1
 			traits = {
-				tactful 
+				ambitious basic_diplomat 
 			}
 		}
 

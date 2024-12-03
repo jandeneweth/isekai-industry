@@ -1,11 +1,11 @@
 ﻿DIPLOMACY = {
-	c:V89 = {
+	c:V79 = {
 		create_diplomatic_pact = {
 			country = c:VEN
 			type = trade_agreement
 		}
 	}
-	c:U50 = {
+	c:U39 = {
 		create_diplomatic_pact = {
 			country = c:LUB
 			type = trade_agreement
@@ -29,9 +29,9 @@
 			type = trade_agreement
 		}
 	}
-	c:U62 = {
+	c:U51 = {
 		create_diplomatic_pact = {
-			country = c:T78
+			country = c:T66
 			type = trade_agreement
 		}
 	}

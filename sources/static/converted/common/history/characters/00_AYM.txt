@@ -20,7 +20,7 @@
 			religion = rel:animist
 			birth_date = 1423.1.1
 			traits = {
-				cautious 
+				compliant 
 			}
 		}
 

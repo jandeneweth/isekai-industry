@@ -1,14 +1,16 @@
 ﻿CHARACTERS = {
 	c:U87 = {
 		create_character = {
-			first_name = "Iehohapata_I"
-			last_name = "Ngati_Toa"
+			first_name = "Ahmad_II"
+			last_name = "Zayyanid"
 			ruler = yes
-			culture = cu:maori
-			religion = rel:animist
-			birth_date = 1425.11.11
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:berber
+			religion = rel:sunni
+			birth_date = 1411.7.27
 			traits = {
-				basic_colonial_administrator reserved 
+				hedonist 
 			}
 		}
 

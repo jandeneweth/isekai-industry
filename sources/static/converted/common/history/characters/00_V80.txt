@@ -1,14 +1,14 @@
 ﻿CHARACTERS = {
 	c:V80 = {
 		create_character = {
-			first_name = "Abdallah_I"
-			last_name = "Darod"
+			first_name = "a-Nzinga"
+			last_name = "Ngola"
 			ruler = yes
-			culture = cu:somali
-			religion = rel:sunni
-			birth_date = 1423.1.1
+			culture = cu:ovimbundu
+			religion = rel:animist
+			birth_date = 1426.1.1
 			traits = {
-				direct 
+				imposing 
 			}
 		}
 

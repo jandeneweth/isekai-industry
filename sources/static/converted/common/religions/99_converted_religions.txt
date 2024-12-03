@@ -342,6 +342,10 @@ nestorian = {
 	traits = { christian }
 	color = { 214 112 153 }
 }
+noreligion = {
+	texture = "gfx/interface/icons/religion_icons/pagan.dds"
+	color = { 200 200 200 }
+}
 norse_pagan_reformed = {
 	texture = "gfx/interface/icons/religion_icons/norse_2.dds"
 	traits = { animist }
