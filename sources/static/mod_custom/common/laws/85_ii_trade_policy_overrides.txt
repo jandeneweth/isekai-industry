@@ -28,16 +28,7 @@
 		
 		market_disallow_trade_routes_bool = yes
 	}
-	
-	possible_political_movements = {
-		law_protectionism
-		law_free_trade
-	}	
-	
-	pop_support = {
-		value = 0
-	}
-	
+
 	ai_will_do = {
 		OR = {
 			has_journal_entry = je_gyojo_shinwon

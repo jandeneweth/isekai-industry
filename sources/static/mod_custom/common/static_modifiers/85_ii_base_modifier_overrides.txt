@@ -18,8 +18,6 @@ base_values = {
 	country_influence_add = 100
 
 	country_secession_progress_add = 0.1
-
-	state_education_access_wealth_add = 0.005
 	
 	country_law_enactment_max_setbacks_add = 3
 	
@@ -30,9 +28,9 @@ base_values = {
 	state_infrastructure_add = 3
 	state_infrastructure_from_automobiles_consumption_add = 0.25
 	
-	state_poor_expected_sol = 5
-	state_middle_expected_sol = 10
-	state_rich_expected_sol = 15
+	state_lower_strata_expected_sol_add = 5
+	state_middle_strata_expected_sol_add = 10
+	state_upper_strata_expected_sol_add = 15
 	state_expected_sol_from_literacy = 5
 	
 	state_farmers_investment_pool_contribution_add = 0.05
@@ -53,8 +51,8 @@ base_values = {
 	
 	state_market_access_price_impact = 0.70  # CHANGED
 	
-	country_company_throughput_bonus_add = 0.1
-	country_company_construction_efficiency_bonus_add = 0.25
+	country_company_throughput_bonus_add = 0.25
+	country_company_construction_efficiency_bonus_add = 0.5
 	
 	country_max_weekly_construction_progress_add = 5  # CHANGED
 	
@@ -64,12 +62,7 @@ base_values = {
 	
 	state_urbanization_per_level_add = 100
 	
-	unit_experience_gain_add = 1.0
-}
-
-malnourishment = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
-	state_birth_rate_mult = -0.05	# per level below equilibrium  # CHANGED
+	unit_experience_gain_add = 0.5
 }
 
 
@@ -87,12 +80,6 @@ administrative_overburden = {
 	country_government_dividends_waste_add = 1
 	state_tax_capacity_mult = -0.5  # ADDED
 	country_tech_research_speed_mult = -0.5  # ADDED
-}
-
-# Multiplies unemployment rate in state by this
-unemployment_birth_penalty_state = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_birth_rate_mult = -0.5  # CHANGED
 }
 
 # Scales with country GDP / COUNTRY_GDP_MODIFIER_DIVISOR

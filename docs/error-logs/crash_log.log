@@ -1,366 +1,345 @@
-﻿[21:49:24][dlc.cpp:754]: Mod Isein: Isekai Industry (com.github.isekai-industry) version 1.7.* does not match game version 1.8.3.
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine' for custom localization 'FeminineMasculineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:551'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine' for custom localization 'FeminineMasculineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:551'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine_cap' for custom localization 'FeminineMasculineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:566'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine_cap' for custom localization 'FeminineMasculineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:566'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine' for custom localization 'MasculineFeminineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:581'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine' for custom localization 'MasculineFeminineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:581'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine_cap' for custom localization 'MasculineFeminineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:596'
-[21:49:35][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine_cap' for custom localization 'MasculineFeminineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:596'
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_poor_expected_sol. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_poor_expected_sol, near line: 32" in file: "common/static_modifiers/85_ii_base_modifier_overrides.txt" near line: 32
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_middle_expected_sol. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_middle_expected_sol, near line: 33" in file: "common/static_modifiers/85_ii_base_modifier_overrides.txt" near line: 33
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_rich_expected_sol. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_rich_expected_sol, near line: 34" in file: "common/static_modifiers/85_ii_base_modifier_overrides.txt" near line: 34
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_radicals_from_sol_change_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_radicals_from_sol_change_mult, near line: 2" in file: "common/static_modifiers/85_ii_traveller_modifiers.txt" near line: 2
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_loyalists_from_sol_change_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_loyalists_from_sol_change_mult, near line: 3" in file: "common/static_modifiers/85_ii_traveller_modifiers.txt" near line: 3
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_bolster_ig_attraction_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_bolster_ig_attraction_mult, near line: 23" in file: "common/static_modifiers/85_ii_traveller_modifiers.txt" near line: 23
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_suppression_ig_attraction_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_suppression_ig_attraction_mult, near line: 24" in file: "common/static_modifiers/85_ii_traveller_modifiers.txt" near line: 24
-[21:49:35][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/norse_2.dds not found'
-[21:49:35][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/slavic_2.dds not found'
-[21:49:35][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/norse_2.dds not found'
-[21:49:35][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/slavic_2.dds not found'
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ingaevophone: ingaevophone, near line: 335" in file: "common/cultures/01_converter_cultures.txt" near line: 335
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: coptophone: coptophone, near line: 526" in file: "common/cultures/01_converter_cultures.txt" near line: 526
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: istvaeonophone: istvaeonophone, near line: 595" in file: "common/cultures/01_converter_cultures.txt" near line: 595
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: irminophone: irminophone, near line: 1034" in file: "common/cultures/01_converter_cultures.txt" near line: 1034
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: irminophone: irminophone, near line: 629" in file: "common/cultures/99_converted_cultures.txt" near line: 629
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: illevionophone: illevionophone, near line: 773" in file: "common/cultures/99_converted_cultures.txt" near line: 773
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible_political_movements, near line: 27" in file: "common/laws/85_ii_bureaucracy_overrides.txt" near line: 30
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: pop_support, near line: 32" in file: "common/laws/85_ii_bureaucracy_overrides.txt" near line: 44
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_radicals_from_sol_change_accepted_religion_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_radicals_from_sol_change_accepted_religion_mult, near line: 29" in file: "common/laws/85_ii_church_and_state_overrides.txt" near line: 29
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_loyalists_from_sol_change_accepted_religion_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_loyalists_from_sol_change_accepted_religion_mult, near line: 31" in file: "common/laws/85_ii_church_and_state_overrides.txt" near line: 31
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_radicals_from_discrimination_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_radicals_from_discrimination_mult, near line: 32" in file: "common/laws/85_ii_church_and_state_overrides.txt" near line: 32
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible_political_movements, near line: 36" in file: "common/laws/85_ii_church_and_state_overrides.txt" near line: 38
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: pop_support, near line: 53" in file: "common/laws/85_ii_church_and_state_overrides.txt" near line: 65
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible_political_movements, near line: 35" in file: "common/laws/85_ii_economic_system_overrides.txt" near line: 40
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: pop_support, near line: 44" in file: "common/laws/85_ii_economic_system_overrides.txt" near line: 46
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible_political_movements, near line: 32" in file: "common/laws/85_ii_trade_policy_overrides.txt" near line: 35
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: pop_support, near line: 37" in file: "common/laws/85_ii_trade_policy_overrides.txt" near line: 39
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible_political_movements, near line: 25" in file: "common/laws/86_ii_added_trade_policy.txt" near line: 29
-[21:49:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: pop_support, near line: 31" in file: "common/laws/86_ii_added_trade_policy.txt" near line: 33
-[21:49:35][culture_type.cpp:81]: Invalid trait in culture 'lombard'
-[21:49:35][culture_type.cpp:81]: Invalid trait in culture 'coptic'
-[21:49:35][culture_type.cpp:81]: Invalid trait in culture 'frankish'
-[21:49:35][culture_type.cpp:81]: Invalid trait in culture 'suebi'
-[21:49:35][culture_type.cpp:81]: Invalid trait in culture 'visigothic'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'earn_recognition_events.1' found. New Location: 'events/85_earn_recognition_events.txt:4', Previous Location: 'events/soi_events/00_earn_recognition_events.txt:3'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'commander_events.6' found. New Location: 'events/commander_events.txt:291', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:13'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'communism.8' found. New Location: 'events/communism.txt:800', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:194'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'crime_events.11' found. New Location: 'events/crime_events.txt:255', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:254'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'german_unification.3' found. New Location: 'events/german_unification.txt:256', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:388'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'marx_events.1' found. New Location: 'events/karl_marx_events.txt:4', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:527'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'oscar_wilde_events.1' found. New Location: 'events/oscar_wilde.txt:3', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1064'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'prostitution.3' found. New Location: 'events/prostitution_events.txt:336', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1220'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'tibet_expedition_events.5' found. New Location: 'events/tibetan_expedition.txt:378', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1369'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.1' found. New Location: 'events/agitators_events/dreyfus_events.txt:4', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:5'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.2' found. New Location: 'events/agitators_events/dreyfus_events.txt:211', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:255'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.3' found. New Location: 'events/agitators_events/dreyfus_events.txt:298', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:358'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'paris_commune_pulse_events.4' found. New Location: 'events/agitators_events/paris_commune_pulse_events.txt:584', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:485'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'paris_commune_pulse_events.9' found. New Location: 'events/agitators_events/paris_commune_pulse_events.txt:1643', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:769'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'paraguay.11' found. New Location: 'events/brazil/!00_fixed_paraguay.txt:2', Previous Location: 'events/brazil/paraguay.txt:951'
-[21:49:36][jomini_eventmanager.cpp:426]: Duplicated event ID 'positivism.1' found. New Location: 'events/brazil/positivism.txt:3', Previous Location: 'events/brazil/zzz_converter_brazil_overwrite.txt:3'
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Mariana_Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Leandra, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Maria, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Elsy, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Antonia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Junia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Andrea, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Felicidad, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Nicore, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Juanita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Juanita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Virginio, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ileana_Fernanda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ximena_Iturri, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Paquita_Maria, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Uta_Felipa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Isidoro, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Hilaria, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Selenadora, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Prudentia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Daniela, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela_Ferreyra, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Hypatia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Julinha, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Eduarda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Iria_Evangelista, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonia_3, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name CustOdia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Maia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Selenadora, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Federica, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Carolina_Ibanez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Luz_Gomez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Josefa_Joaquina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Luisa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Georgina_Gonzalez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Iliana, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Garcia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Estanisla, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Anselma, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manuela_Blanca, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Morgaine_Fernanda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pati, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Victorina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Raquel_Tamara, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Julissa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Miguela_Antonia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Aristidou, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Carolina_Eugenia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Santa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Alfreda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Dolores, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ambrosia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Eligia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Vicenta_Raquel, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Frederica_Gonzalez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Alfreda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Lamia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Flavia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Gorgo, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Jacinta, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Francisca, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Rikki, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Archie, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Rhiannon, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Wanda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name FillReyne, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Shannon, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Fritzi, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Andrea_Scott, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Charleigh_Granville, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Delshad, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Shahrazad_Kuchik, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Hananeh, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Junia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Javiera, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Galvez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Julissa_Cesar, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Victoria_Leandra, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Ignacia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Francisca, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Chrysostoma, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonita_Gutierrine, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Rufina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Andrea_Avelina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Afrositty_Lopez, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Antonia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Rufina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Je_sica, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Felicidad, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Edvige, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Silvia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Helios, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Zhanna, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Zaklina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Vasilisa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Vasilisa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Alyosha, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petya, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petya, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Viktoriya, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Zhanna, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Gergina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Cemile_Sultan, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Bernardita_Prudencia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Petra, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Tam_Maritza, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Manini, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Cesaria, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Aquilina, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Casandra, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Timotea, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ruperta, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Michaela, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonia_Leocadia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Felipa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Paula, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Antonia, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Nicolasa, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Vicenta, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Leopolda, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Elsy, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Gregoria, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Carla, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Linares, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Chrysostoma, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Raquel, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Betancourt, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Rafaela_Ximena, reverting to random name
-[21:49:36][character_templates_utils.cpp:1492]: Missing localization key for character first name Xiang, reverting to random name
-[21:49:36][jomini_onaction.cpp:123]: There is more than one 'effect' defined using most recent: file: common/on_actions/85_ii_law_change.txt line: 16
-[21:49:36][country_definition.cpp:230]: Country definition S30 has invalid capital STATE_NAGPUR
-[21:49:36][country_definition.cpp:230]: Country definition BGL has invalid capital STATE_NORTH_BENGAL
-[21:49:36][country_definition.cpp:230]: Country definition V14 has invalid capital STATE_CENTRAL_INDIA
-[21:49:36][country_definition.cpp:230]: Country definition C26 has invalid capital STATE_NAGPUR
-[21:49:36][country_definition.cpp:230]: Country definition P27 has invalid capital STATE_CENTRAL_INDIA
-[21:49:36][country_definition.cpp:230]: Country definition M47 has invalid capital STATE_NAGPUR
-[21:49:36][country_definition.cpp:230]: Country definition S32 has invalid capital STATE_NORTH_BENGAL
-[21:49:36][country_definition.cpp:230]: Country definition C27 has invalid capital STATE_CENTRAL_INDIA
-[21:49:36][country_definition.cpp:230]: Country definition P30 has invalid capital STATE_BURMA
-[21:49:36][character_traits.cpp:215]: Character Trait is missing loc key! Trait: converter_immortal
-[21:49:36][journalentry_type.cpp:234]: Journal entry is missing loc for je_earn_recognition_goal
-[21:49:36][power_bloc_statue_hero_type.cpp:141]: Identity 'identity_holy_roman_empire' is not default for any hero!
-[21:49:36][power_bloc_statue_pedestal_type.cpp:62]: Identity 'identity_holy_roman_empire' is not default for any pedestal!
-[21:49:36][jomini_script_system.cpp:270]: Script system error!
+﻿[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine' for custom localization 'FeminineMasculineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:551'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine' for custom localization 'FeminineMasculineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:551'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine_cap' for custom localization 'FeminineMasculineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:566'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine_cap' for custom localization 'FeminineMasculineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:566'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine' for custom localization 'MasculineFeminineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:581'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine' for custom localization 'MasculineFeminineMatriarchal' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:581'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_masculine_cap' for custom localization 'MasculineFeminineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:596'
+[22:43:52][jomini_custom_text.cpp:172]: Missing loc key 'custom_loc_feminine_cap' for custom localization 'MasculineFeminineMatriarchalCap' (or variant), at 'common/customizable_localization/matriarchy_custom_loc.txt:596'
+[22:43:52][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/norse_2.dds not found'
+[22:43:52][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/slavic_2.dds not found'
+[22:43:52][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/norse_2.dds not found'
+[22:43:52][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/religion_icons/slavic_2.dds not found'
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ingaevophone: ingaevophone, near line: 335" in file: "common/cultures/01_converter_cultures.txt" near line: 335
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: coptophone: coptophone, near line: 526" in file: "common/cultures/01_converter_cultures.txt" near line: 526
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: istvaeonophone: istvaeonophone, near line: 595" in file: "common/cultures/01_converter_cultures.txt" near line: 595
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: irminophone: irminophone, near line: 1034" in file: "common/cultures/01_converter_cultures.txt" near line: 1034
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: irminophone: irminophone, near line: 629" in file: "common/cultures/99_converted_cultures.txt" near line: 629
+[22:43:52][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: illevionophone: illevionophone, near line: 773" in file: "common/cultures/99_converted_cultures.txt" near line: 773
+[22:43:52][culture_type.cpp:81]: Invalid trait in culture 'lombard'
+[22:43:52][culture_type.cpp:81]: Invalid trait in culture 'coptic'
+[22:43:52][culture_type.cpp:81]: Invalid trait in culture 'frankish'
+[22:43:52][culture_type.cpp:81]: Invalid trait in culture 'suebi'
+[22:43:52][culture_type.cpp:81]: Invalid trait in culture 'visigothic'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'earn_recognition_events.1' found. New Location: 'events/85_earn_recognition_events.txt:4', Previous Location: 'events/soi_events/00_earn_recognition_events.txt:3'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'commander_events.6' found. New Location: 'events/commander_events.txt:291', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:13'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'communism.8' found. New Location: 'events/communism.txt:800', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:194'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'crime_events.11' found. New Location: 'events/crime_events.txt:255', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:254'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'german_unification.3' found. New Location: 'events/german_unification.txt:256', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:388'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'marx_events.1' found. New Location: 'events/karl_marx_events.txt:4', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:527'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'oscar_wilde_events.1' found. New Location: 'events/oscar_wilde.txt:3', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1064'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'prostitution.3' found. New Location: 'events/prostitution_events.txt:336', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1220'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'tibet_expedition_events.5' found. New Location: 'events/tibetan_expedition.txt:378', Previous Location: 'events/zzz_converter_general_events_overwrite.txt:1369'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.1' found. New Location: 'events/agitators_events/dreyfus_events.txt:4', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:5'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.2' found. New Location: 'events/agitators_events/dreyfus_events.txt:211', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:255'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'dreyfus.3' found. New Location: 'events/agitators_events/dreyfus_events.txt:298', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:358'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'paris_commune_pulse_events.4' found. New Location: 'events/agitators_events/paris_commune_pulse_events.txt:584', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:485'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'paris_commune_pulse_events.9' found. New Location: 'events/agitators_events/paris_commune_pulse_events.txt:1643', Previous Location: 'events/agitators_events/zzz_converter_agitators_events_overwrite.txt:769'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'paraguay.11' found. New Location: 'events/brazil/!00_fixed_paraguay.txt:2', Previous Location: 'events/brazil/paraguay.txt:951'
+[22:43:53][jomini_eventmanager.cpp:426]: Duplicated event ID 'positivism.1' found. New Location: 'events/brazil/positivism.txt:3', Previous Location: 'events/brazil/zzz_converter_brazil_overwrite.txt:3'
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Mariana_Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Leandra, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Maria, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Elsy, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Antonia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Junia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Andrea, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Felicidad, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Nicore, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Juanita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Giovana_Juanita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Virginio, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ileana_Fernanda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ximena_Iturri, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Paquita_Maria, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Uta_Felipa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Isidoro, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Hilaria, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Selenadora, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Prudentia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Daniela, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela_Ferreyra, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Hypatia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Julinha, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Eduarda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Iria_Evangelista, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonia_3, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name CustOdia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Maia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Selenadora, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Federica, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Carolina_Ibanez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Luz_Gomez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Josefa_Joaquina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Luisa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Georgina_Gonzalez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Iliana, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Garcia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Estanisla, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Anselma, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manuela_Blanca, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Morgaine_Fernanda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pati, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Victorina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Raquel_Tamara, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Julissa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Miguela_Antonia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manoela, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Aristidou, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Carolina_Eugenia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Santa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Alfreda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Dolores, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ambrosia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Eligia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Vicenta_Raquel, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Frederica_Gonzalez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Alfreda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Lamia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Flavia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Gorgo, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Jacinta, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Francisca, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Rikki, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Archie, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Rhiannon, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Wanda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name FillReyne, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Shannon, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Fritzi, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Andrea_Scott, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Charleigh_Granville, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Delshad, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Shahrazad_Kuchik, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Hananeh, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Junia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Javiera, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Dominga, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Galvez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Julissa_Cesar, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Victoria_Leandra, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Ignacia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Francisca, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Chrysostoma, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonita_Gutierrine, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Rufina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Andrea_Avelina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Afrositty_Lopez, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Paula, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Antonia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Rufina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Je_sica, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Felicidad, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Edvige, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Silvia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Helios, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Zhanna, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Zaklina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Vasilisa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Vasilisa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Alyosha, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petya, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petya, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Viktoriya, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Zhanna, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Gergina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Cemile_Sultan, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Bernardita_Prudencia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Petra, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Tam_Maritza, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Petra_Manini, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Cesaria, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Aquilina, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Casandra, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Timotea, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ruperta, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Michaela, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Ricarda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Antonia_Leocadia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Felipa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Paula, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Manola_Antonia, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Nicolasa, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Vicenta, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Manola, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Leopolda, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Elsy, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Gregoria, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Carla, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Linares, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Juanita_Chrysostoma, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Pepita_Raquel, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Francisca_Betancourt, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Rafaela_Ximena, reverting to random name
+[22:43:53][character_templates_utils.cpp:1492]: Missing localization key for character first name Xiang, reverting to random name
+[22:43:53][jomini_onaction.cpp:123]: There is more than one 'effect' defined using most recent: file: common/on_actions/85_ii_law_change.txt line: 16
+[22:43:53][country_definition.cpp:230]: Country definition S30 has invalid capital STATE_NAGPUR
+[22:43:53][country_definition.cpp:230]: Country definition M47 has invalid capital STATE_NAGPUR
+[22:43:53][country_definition.cpp:230]: Country definition C26 has invalid capital STATE_NAGPUR
+[22:43:53][country_definition.cpp:230]: Country definition P27 has invalid capital STATE_CENTRAL_INDIA
+[22:43:53][country_definition.cpp:230]: Country definition V14 has invalid capital STATE_CENTRAL_INDIA
+[22:43:53][country_definition.cpp:230]: Country definition BGL has invalid capital STATE_NORTH_BENGAL
+[22:43:53][country_definition.cpp:230]: Country definition S32 has invalid capital STATE_NORTH_BENGAL
+[22:43:53][country_definition.cpp:230]: Country definition P30 has invalid capital STATE_BURMA
+[22:43:53][country_definition.cpp:230]: Country definition C27 has invalid capital STATE_CENTRAL_INDIA
+[22:43:53][character_traits.cpp:215]: Character Trait is missing loc key! Trait: converter_immortal
+[22:43:53][journalentry_type.cpp:234]: Journal entry is missing loc for je_earn_recognition_goal
+[22:43:53][power_bloc_statue_hero_type.cpp:141]: Identity 'identity_holy_roman_empire' is not default for any hero!
+[22:43:53][power_bloc_statue_pedestal_type.cpp:62]: Identity 'identity_holy_roman_empire' is not default for any pedestal!
+[22:43:53][jomini_script_system.cpp:270]: Script system error!
   Error: has_template trigger [ Invalid database object 'gwa_rani_of_jhansi' ]
   Script location: file: gfx/portraits/portrait_modifiers/01_clothes.txt line: 3226
 
-[21:49:36][jomini_trigger.cpp:222]: PostValidate of trigger 'has_template' returned false at  file: gfx/portraits/portrait_modifiers/01_clothes.txt line: 3226
-[21:49:36][pdx_assert.cpp:631]: Assertion failed: Achievements not loaded correctly
-[21:49:37][state_region_template.cpp:1442]: No Port / Treaty Port province designated for coastal State Region: STATE_NORTHWEST_TERRITORIES
-[21:49:37][state_region_template.cpp:1442]: No Port / Treaty Port province designated for coastal State Region: STATE_NUNAVUT
-[21:49:37][state_region_template.cpp:1541]: If the state region is considered coastal land, it should always have an exit region! State Region: STATE_NORTHWEST_TERRITORIES
-[21:49:37][state_region_template.cpp:1541]: If the state region is considered coastal land, it should always have an exit region! State Region: STATE_NUNAVUT
-[21:49:37][eventtargetlinks.cpp:3400]: Failed to find country! Country: BAB, File Location: common/scripted_effects/zzz_converter_effects_cultural.txt:7905
-[21:49:37][eventtargetlinks.cpp:3400]: Failed to find country! Country: GGR, File Location: common/scripted_effects/zzz_converter_effects_cultural.txt:7911
-[21:49:37][jomini_effect.cpp:341]: Character flag 'converter_andrew_scott_waugh' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Character flag 'converter_charles_granville_bruce' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'reza_culture' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'yat_sen_religion' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'first_flight_achievement_check' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'global_swe_countries' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'paris_commune_crushed_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'achievement_we_are_not_amused' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'achievement_mightier_than_the_sword' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'achievement_revolutionary' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'free_nation_name_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'stamped_out_monarchy_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'je_german_unification_idea' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'meiji_reforms_complete_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'achievement_great_game_no_re' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'achievement_military_junta_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'iranzamin_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'completed_natural_borders_je' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'honor_and_life_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'je_amazonas_complete_variable' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'paraguay_war_victory_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'estado_novo_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'hermit_kingdom_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'exile_to_ruler_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'serfs_up_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'the_berlin_conference_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'muhammed_alis_ambition_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'broken_promises_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'reading_campaign_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'star_swarmed_banner_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'peccavi_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'perkeletankki_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'luxurious_luxembourg_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'anarchy_in_the_uk_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'an_empire_under_the_pun_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'i_didnt_vote_for_pedro_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'go_west_young_man_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'the_western_protectorate_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'the_paris_commune_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'barbarys_back_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'miners_and_minors_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'healthy_man_of_europe_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'habsburg_resurgence_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'great_game_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'bourbon_for_everyone_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'american_territory_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'belle_epoque_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'risorgimento_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'three_hurrahs_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'huge_ego_sorry_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'solomons_quest_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'i_am_a_scandinavian_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'grander_colombia_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'manifest_mexico_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'not_yet_lost_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:341]: Variable 'declaration_of_independence_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'fra_republic_counter' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'francocracia_paraguay_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'only_valid_party' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'is_santa_anna' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'algeria_constantine_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'algeria_mascara_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'algeria_ait_abbas_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'algeria_touggourt_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'john_frost_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'peru_bolivia_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'ragamuffin_nation_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'ranavalona' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'ismail_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'hawduqo_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'east_indies_revolt_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'is_said_bin_sultan' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_effect.cpp:348]: Variable 'monroe_doctrine' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[21:49:37][jomini_eventmanager.cpp:370]: Event sick_man.1 is orphaned
-[21:49:39][game_object_locators.cpp:428]: map object locator "port" is incomplete. A new file with locator data has been generated ( /home/jandeneweth/.local/share/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_port.txt ).
+[22:43:53][jomini_trigger.cpp:222]: PostValidate of trigger 'has_template' returned false at  file: gfx/portraits/portrait_modifiers/01_clothes.txt line: 3226
+[22:43:53][pdx_assert.cpp:631]: Assertion failed: Achievements not loaded correctly
+[22:43:53][state_region_template.cpp:1442]: No Port / Treaty Port province designated for coastal State Region: STATE_NORTHWEST_TERRITORIES
+[22:43:53][state_region_template.cpp:1442]: No Port / Treaty Port province designated for coastal State Region: STATE_NUNAVUT
+[22:43:54][state_region_template.cpp:1541]: If the state region is considered coastal land, it should always have an exit region! State Region: STATE_NORTHWEST_TERRITORIES
+[22:43:54][state_region_template.cpp:1541]: If the state region is considered coastal land, it should always have an exit region! State Region: STATE_NUNAVUT
+[22:43:54][eventtargetlinks.cpp:3400]: Failed to find country! Country: BAB, File Location: common/scripted_effects/zzz_converter_effects_cultural.txt:7905
+[22:43:54][eventtargetlinks.cpp:3400]: Failed to find country! Country: GGR, File Location: common/scripted_effects/zzz_converter_effects_cultural.txt:7911
+[22:43:54][jomini_effect.cpp:341]: Character flag 'converter_andrew_scott_waugh' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Character flag 'converter_charles_granville_bruce' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'reza_culture' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'yat_sen_religion' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'first_flight_achievement_check' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'global_swe_countries' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'paris_commune_crushed_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'achievement_we_are_not_amused' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'achievement_mightier_than_the_sword' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'achievement_revolutionary' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'free_nation_name_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'stamped_out_monarchy_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'je_german_unification_idea' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'meiji_reforms_complete_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'achievement_great_game_no_re' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'achievement_military_junta_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'iranzamin_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'completed_natural_borders_je' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'honor_and_life_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'je_amazonas_complete_variable' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'paraguay_war_victory_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'estado_novo_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'hermit_kingdom_achievement' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'exile_to_ruler_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'serfs_up_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'the_berlin_conference_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'muhammed_alis_ambition_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'broken_promises_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'reading_campaign_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'star_swarmed_banner_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'peccavi_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'perkeletankki_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'luxurious_luxembourg_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'anarchy_in_the_uk_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'an_empire_under_the_pun_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'i_didnt_vote_for_pedro_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'go_west_young_man_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'the_western_protectorate_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'the_paris_commune_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'barbarys_back_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'miners_and_minors_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'healthy_man_of_europe_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'habsburg_resurgence_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'great_game_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'bourbon_for_everyone_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'american_territory_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'belle_epoque_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'risorgimento_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'three_hurrahs_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'huge_ego_sorry_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'solomons_quest_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'i_am_a_scandinavian_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'grander_colombia_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'manifest_mexico_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'not_yet_lost_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:341]: Variable 'declaration_of_independence_ach_possible' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'fra_republic_counter' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'francocracia_paraguay_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'only_valid_party' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'is_santa_anna' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'algeria_constantine_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'algeria_mascara_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'algeria_ait_abbas_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'algeria_touggourt_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'john_frost_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'peru_bolivia_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'ragamuffin_nation_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'ranavalona' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'ismail_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'hawduqo_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'east_indies_revolt_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'is_said_bin_sultan' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_effect.cpp:348]: Variable 'monroe_doctrine' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[22:43:54][jomini_eventmanager.cpp:370]: Event sick_man.1 is orphaned
+[22:43:55][game_object_locators.cpp:428]: map object locator "port" is incomplete. A new file with locator data has been generated ( /home/jandeneweth/.local/share/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_port.txt ).
 Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
-[21:49:44][jomini_script_system.cpp:270]: Script system error!
+[22:43:59][jomini_script_system.cpp:270]: Script system error!
   Error: set_hub_names effect [ Attempting to assign a key that does not have localization to a hub ]
   Script location: file: common/scripted_effects/00_dynamic_state_names_europe.txt line: 1043 file: common/on_actions/00_code_on_actions.txt line: 4709 file: common/scripted_effects/00_dynamic_state_names.txt line: 19 file: common/scripted_effects/00_dynamic_state_names_europe.txt line: 106
 
-[21:49:45][country_law_manager.cpp:431]: Country AIN is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country B08 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country BRE is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country C17 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country CKC is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country FRM is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country HAM is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country KMC is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country LUB is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country LUC is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country M18 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country SWI is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country T09 is not permitted to retain law Presidential Republic, fix this or consider Chiefdom instead
-[21:49:45][country_law_manager.cpp:431]: Country T44 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U17 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U25 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U35 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U37 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U38 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U44 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U53 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U61 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country U99 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country V16 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country V58 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country V87 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country V90 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country V92 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country VEN is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W24 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W29 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W32 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W35 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W46 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W57 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country W93 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country X00 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country X40 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country X90 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
-[21:49:45][country_law_manager.cpp:431]: Country X93 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country AIN is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country B08 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country BRE is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country C17 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country CKC is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country FRM is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country HAM is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country KMC is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country LUB is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country LUC is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country M18 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country SWI is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country T09 is not permitted to retain law Presidential Republic, fix this or consider Chiefdom instead
+[22:44:01][country_law_manager.cpp:431]: Country T44 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U17 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U25 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U35 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U37 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U38 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U44 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U53 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U61 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country U99 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country V16 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country V58 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country V87 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country V90 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country V92 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country VEN is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W24 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W29 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W32 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W35 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W46 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W57 is not permitted to retain law Chiefdom, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country W93 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country X00 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country X40 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country X90 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead
+[22:44:01][country_law_manager.cpp:431]: Country X93 is not permitted to retain law Presidential Republic, fix this or consider Monarchy instead

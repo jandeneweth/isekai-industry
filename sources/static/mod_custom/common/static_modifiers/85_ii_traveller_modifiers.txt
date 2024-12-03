@@ -1,7 +1,7 @@
 ﻿ii_traveller_active_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-    state_radicals_from_sol_change_mult = 0.5
-    state_loyalists_from_sol_change_mult = 0.25
+    state_radicals_from_political_movements_mult = 0.25
+    state_radicals_and_loyalists_from_sol_change_mult = 0.25
 }
 
 ii_traveller_build_modifier = {
@@ -21,8 +21,8 @@ ii_traveller_tech_modifier = {
 ii_traveller_law_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
     country_authority_add = 200
-    country_bolster_ig_attraction_mult = 0.5
-    country_suppression_ig_attraction_mult = -0.25
+    country_bolster_attraction_mult = 0.5
+    country_suppression_attraction_mult = -0.25
     country_law_enactment_time_mult = -0.33
     country_law_enactment_success_add = 0.10
 }

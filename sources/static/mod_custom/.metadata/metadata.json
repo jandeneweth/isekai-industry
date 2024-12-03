@@ -1,11 +1,12 @@
 {
     "name" : "Isein: Isekai Industry",
     "id" : "com.github.isekai-industry",
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "game_id" : "victoria3",
-    "supported_game_version" : "1.7.*", 
+    "supported_game_version" : "1.8.*", 
     "short_description" : "A wandering soul arrives in the middle ages.",
     "tags" : ["Alternative History", "Conversion"],
+	"picture" : "thumbnail.png",
     "relationships" : [],
     "game_custom_data" : {
         "multiplayer_synchronized" : true,
