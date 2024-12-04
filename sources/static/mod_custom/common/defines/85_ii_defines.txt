@@ -9,6 +9,3 @@ NPops = {
     WORKING_ADULT_RATIO_BASE = 0.30				# CHANGED from 0.25  # Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
     DEPENDENT_CONSUMPTION_RATIO = 0.55			# CHANGED from 0.50  # Dependents consume this multiple of Needs compared to Working Adults
 }
-
-# CHANGED from 5. Not sure if overwriting this effects the calculations in vanilla defines...
-@pop_growth_equilibrium_sol = 4		# Equilibrium is pops stop starving and where growth first becomes positive

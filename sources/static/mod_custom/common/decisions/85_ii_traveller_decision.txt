@@ -1,0 +1,34 @@
+﻿start_traveller_decision = {
+    is_shown = {
+        is_player = yes
+		custom_tooltip = {
+			text = ii_no_traveller_in_world_tt
+			NOT = {
+				any_country = {
+					has_variable = ii_has_traveller
+				}
+			}
+		}
+    }
+
+    possible = {
+        custom_tooltip = {
+			text = ii_didnt_have_traveller_tt
+			NOT = { has_variable = ii_had_traveller }
+		}
+    }
+
+    when_taken = {
+        add_journal_entry = {
+            type = je_ii_traveller
+        }
+        trigger_event = {
+			id = ii_traveller_events.1
+			popup = yes
+		}
+    }
+
+    ai_chance = {
+        base = 0
+    }
+}

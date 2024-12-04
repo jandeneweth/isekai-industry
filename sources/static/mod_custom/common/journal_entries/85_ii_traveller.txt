@@ -6,25 +6,6 @@
 	weight = 100
 	should_be_pinned_by_default = yes
 
-	is_shown_when_inactive = {
-		is_player = yes
-	}
-
-	possible = {
-		custom_tooltip = {
-			text = ii_didnt_have_traveller_tt
-			NOT = { has_variable = ii_had_traveller }
-		}
-		custom_tooltip = {
-			text = ii_no_traveller_in_world_tt
-			NOT = {
-				any_country = {
-					has_variable = ii_has_traveller
-				}
-			}
-		}
-	}
-
 	immediate = {
         set_variable = ii_has_traveller
         set_variable = ii_had_traveller
@@ -45,10 +26,6 @@
 				has_variable = ii_has_traveller
 			}
 		}
-	}
-
-	on_invalid = {
-		remove_variable = ii_has_traveller
 	}
 
 	timeout = 18250  # 50 years

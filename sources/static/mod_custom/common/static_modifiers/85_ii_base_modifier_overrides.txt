@@ -43,7 +43,7 @@ base_values = {
 	state_unincorporated_starting_wages_mult = -0.20
 	building_unincorporated_subsistence_output_mult = -0.20
 		
-	country_construction_add = 5  # CHANGED
+	country_construction_add = 10
 	
 	building_mobilization_cost_mult = 0.6
 	
@@ -54,7 +54,7 @@ base_values = {
 	country_company_throughput_bonus_add = 0.25
 	country_company_construction_efficiency_bonus_add = 0.5
 	
-	country_max_weekly_construction_progress_add = 5  # CHANGED
+	country_max_weekly_construction_progress_add = 10
 	
 	country_free_trade_routes_add = 5
 	

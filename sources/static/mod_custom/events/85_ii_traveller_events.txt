@@ -1,0 +1,47 @@
+﻿namespace = ii_traveller_events
+
+ii_traveller_events.1 = {
+	type = country_event
+    placement = root
+
+    title = ii_traveller_events.1.t
+    desc = ii_traveller_events.1.d
+    flavor = ii_traveller_events.1.f
+
+    duration = 0
+
+    dlc = dlcii
+
+	event_image = {
+		video = "votp_realist_household"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    immediate = {
+        add_modifier = {
+			name = ii_traveller_tech_modifier
+			days = -1
+		}
+    }
+
+    option = {
+		name = ii_traveller_events.1.a
+		default_option = yes
+
+        custom_tooltip = ii_traveller_events.1.a.wanderer_focus_tt
+        show_as_tooltip = {
+            add_modifier = {
+                name = ii_traveller_tech_modifier
+                days = -1
+            }
+        }
+
+        add_modifier = {
+            name = ii_traveller_initial_boost_modifier
+            months = 24
+        }
+	}
+}
