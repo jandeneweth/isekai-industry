@@ -13,7 +13,7 @@ ii_traveller_build_modifier = {
 ii_traveller_tech_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
     state_education_access_add = 0.10
-    state_education_access_wealth_add = 0.02
+    state_education_access_wealth_add = 0.005
     state_pop_qualifications_mult = 1.0
 }
 
@@ -32,5 +32,5 @@ ii_traveller_action_cooldown = {
 
 ii_traveller_initial_boost_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_tech_research_speed_mult = 5.0
+	country_tech_research_speed_mult = 10.0
 }

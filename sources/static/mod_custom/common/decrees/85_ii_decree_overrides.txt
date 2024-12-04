@@ -1,0 +1,76 @@
+﻿decree_promote_social_mobility = {
+	texture = "gfx/interface/icons/decree/decree_promote_social_mobility.dds"
+	unlocking_technologies = {
+		rationalism  # ADDED
+	}
+
+	state_trigger = {
+		NOT = {
+			AND = {
+				owner = {
+					OR = {
+						has_law = law_type:law_hindu_caste_enforced
+						has_law = law_type:law_hindu_caste_codified
+					}
+				}
+				religion_percent_state = {
+					target = rel:hindu  
+					value >= 0.3
+				}
+			}
+		}
+	}
+
+	modifier = {
+		state_education_access_add = 0.10  # CHANGED
+		state_pop_qualifications_mult = 0.5  # CHANGED
+	}
+
+	cost = 100
+	
+	ai_weight = {
+		value = 0
+
+		if = {
+			limit = { 
+				literacy_rate < 0.25
+			}
+			add = 75
+		}		
+		if = {
+			limit = { 
+				literacy_rate < 0.5
+			}
+			add = 75
+		}
+		if = {
+			limit = { 
+				literacy_rate < 0.75
+			}
+			add = 50
+		}		
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_reactionary_agenda
+						has_strategy = ai_strategy_conservative_agenda
+						has_strategy = ai_strategy_maintain_mandate_of_heaven
+					}
+				}
+			}
+			multiply = 0.5
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_progressive_agenda
+						has_strategy = ai_strategy_egalitarian_agenda
+					}
+				}
+			}
+			multiply = 1.5
+		}			
+	}
+}

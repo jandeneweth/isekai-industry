@@ -8,6 +8,8 @@ base_values = {
 	country_weekly_innovation_add = 0  # CHANGED
 	country_weekly_innovation_max_add = 0  # CHANGED
 	country_tech_spread_add = 25
+
+	state_education_access_wealth_add = 0.005  # ADDED
 	
 	country_loan_interest_rate_add = 0.2
 	

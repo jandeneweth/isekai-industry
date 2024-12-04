@@ -23,6 +23,9 @@ def main():
             fh.write(full_text)
 
 VALID_STARTING_TECHS = [
+    # Production
+    "sericulture",
+    "enclosure",
     # Military
     "navigation",
     "standing_army",
