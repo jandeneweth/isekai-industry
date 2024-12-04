@@ -5,12 +5,17 @@
 
 	weight = 90
 
-	is_shown_when_inactive = {
-		root.var:last_fetched_decentralization_score > 0
+	complete = {
+		custom_tooltip = { 
+			text = je_centralization_complete_tt
+			scope:journal_entry ?= {
+				"scripted_bar_progress(decentralized_government_progress_bar)" <= 0
+			}
+		}
 	}
 
-	invalid = {
-		root.var:last_fetched_decentralization_score <= 0
+	is_shown_when_inactive = {
+		root.var:last_fetched_decentralization_score > 0
 	}
 
 	scripted_progress_bar = decentralized_government_progress_bar

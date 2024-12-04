@@ -5,6 +5,7 @@
  je_ii_decentralized_governance_status: "Decentralization: #v [JournalEntry.GetCountry.MakeScope.Var('last_fetched_decentralization_score').GetValue]%#!"
  decentralized_government_progress_bar: "Level of Decentralization"
  decentralized_government_progress_bar_desc: "Decentralization: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!"
+ je_centralization_complete_tt: "Decentralization is at 0% due to legislative changes"
  
  decentralization_progress_peasant_levies: "Peasant Levies (fixed #v #b +10#!#!)"
  decentralization_progress_hereditary_bureaucrats: "Hereditary Bureaucrats (fixed #v #b +10#!#!)"
