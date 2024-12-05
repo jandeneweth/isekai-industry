@@ -1,7 +1,7 @@
 ﻿decree_promote_social_mobility = {
 	texture = "gfx/interface/icons/decree/decree_promote_social_mobility.dds"
 	unlocking_technologies = {
-		rationalism  # ADDED
+		democracy  # ADDED
 	}
 
 	state_trigger = {

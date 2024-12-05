@@ -1,5 +1,7 @@
 ﻿l_english:
  modifier_decentralization: "Decentralization"
+ modifier_medieval_society: "Medieval Society"
+
  je_ii_decentralized_governance: "Decentralized Governance"
  je_ii_decentralized_governance_reason: "A significant part of the day-to-day governance of [ROOT.GetCountry.GetName] is delegated to largely autonomous forces. Clergy keep records on the populace, the aristocracy manages the defence and administration of rural areas, burghers control trade and production in the cities... and for every such service provided to the nation, a fair share of revenue is taken. Or slightly more."
  je_ii_decentralized_governance_status: "Decentralization: #v [JournalEntry.GetCountry.MakeScope.Var('last_fetched_decentralization_score').GetValue]%#!"

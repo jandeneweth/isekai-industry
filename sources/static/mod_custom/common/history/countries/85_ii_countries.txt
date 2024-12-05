@@ -22,5 +22,11 @@
 			id = ii_decentralization_events.1
 			days = 1
 		}
+        # Medieval society decaying modifier
+        add_modifier = { 
+            name = modifier_medieval_society
+            years = 50
+            is_decaying = yes
+        }
     }
 }

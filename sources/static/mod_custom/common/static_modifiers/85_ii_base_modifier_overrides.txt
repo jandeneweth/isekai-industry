@@ -7,7 +7,7 @@
 base_values = {
 	country_weekly_innovation_add = 0  # CHANGED
 	country_weekly_innovation_max_add = 0  # CHANGED
-	country_tech_spread_add = 25
+	country_tech_spread_add = 50  # CHANGED
 
 	state_education_access_wealth_add = 0.005  # ADDED
 	

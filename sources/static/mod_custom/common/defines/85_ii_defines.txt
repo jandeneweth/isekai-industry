@@ -1,4 +1,9 @@
-﻿NPolitics = {
+﻿NGame = {
+    START_DATE = "1444.11.11"  # Same as converted save
+    END_DATE = "1644.11.11"
+}
+
+NPolitics = {
 	STATE_BUREAUCRACY_BASE_COST = 0		# CHANGED from 10  # The base cost per incorporated state
 	STATE_BUREAUCRACY_POP_BASE_COST = 5		# CHANGED from 4  # The base BUR multiplier per population multiple
 }

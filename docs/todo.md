@@ -1,4 +1,4 @@
 # TODO
 
-- Add decaying "Medieval society" modifier for tech spread?
-- Tweak investment fund gain with decaying "medieval society".
+- Block tributary autonomy decrease
+- Remove tons of vanilla journal entries (and ideally also events...)
