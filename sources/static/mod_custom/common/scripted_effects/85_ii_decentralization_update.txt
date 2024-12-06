@@ -8,8 +8,10 @@
                 var:last_fetched_decentralization_score != decentralization_score
             }
         }
-        set_variable = {
-            name = last_fetched_decentralization_score
+
+        # Use local variable to limit recalculation
+        set_local_variable = {
+            name = local_decentralization_score
             value = decentralization_score
         }
 
@@ -19,7 +21,7 @@
         # Re-add at new level
         add_modifier = {
             name = modifier_decentralization
-            multiplier = var:last_fetched_decentralization_score
+            multiplier = local_var:local_decentralization_score
         }
 
         # Update journal entry
@@ -30,9 +32,22 @@
             je:je_ii_decentralized_governance = {
                 set_bar_progress = {
                     name = decentralized_government_progress_bar
-                    value = PREV.var:last_fetched_decentralization_score
+                    value = local_var:local_decentralization_score
                 }
             }
         }
+
+        # Save score at end (any earlier risks hard to recover partial state)
+        set_variable = {
+            name = last_fetched_decentralization_score
+            value = local_var:local_decentralization_score
+        }
+    }
+}
+
+effect_initial_setup_decentralization = {
+    add_modifier = {
+        name = modifier_decentralization
+        multiplier = 100
     }
 }

@@ -1,32 +1,8 @@
 ﻿COUNTRIES = {
     every_country = {
-        # Always set this var to avoid error log spam
-        set_variable = {
-            name = last_fetched_decentralization_score
-            value = 0
-        }
-        # Add the decentralization journal
-        #  Note: It seems on_activate_law causes the decentralization update to get triggered on start, 
-        #  due to activate_law happening in country history setup. But a bit buggy scope-wise.
-        if = {
-            limit = {
-                # Note: decentralized countries don't allow events or journals it seems
-                NOT = { is_country_type = decentralized }
-            }
-            add_journal_entry = {
-                type = je_ii_decentralized_governance
-            }
-        }
-        # Delayed update of decentralization
-		trigger_event = {
-			id = ii_decentralization_events.1
-			days = 1
+        trigger_event = {
+			id = ii_country_setup_events.1
+			days = 0
 		}
-        # Medieval society decaying modifier
-        add_modifier = { 
-            name = modifier_medieval_society
-            years = 50
-            is_decaying = yes
-        }
     }
 }

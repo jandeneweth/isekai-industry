@@ -1,0 +1,17 @@
+﻿ii_country_setup = {
+    # Medieval society decaying modifier
+    add_modifier = { 
+        name = modifier_medieval_society
+        years = 50
+        is_decaying = yes
+    }
+    # Add the decentralization journal
+    add_journal_entry = {
+        type = je_ii_decentralized_governance
+    }
+    # Also trigger decentralization update, but setting all at 100% until they get corrected.
+    #  Normal update seems to be incorrect (always 85% for everyone) for some reason.
+    #  Note: It seems on_activate_law causes the decentralization update to get triggered on start, 
+    #  due to activate_law happening in country history setup. But a bit buggy as mentioned.
+    effect_initial_setup_decentralization = yes
+}

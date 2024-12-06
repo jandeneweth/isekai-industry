@@ -1,0 +1,538 @@
+﻿# Root owner Country of the Law
+# executed when the law is activated for any reason. It's usually because it
+# has been enacted, but script can activate laws directly without going through
+# the enactment process. Normally, it's immediately preceded by
+# on_law_enactment_ended, but if a law is directly set by script, thus
+# bypassing the enactment process, this will execute while
+# on_law_enactment_ended will not
+#
+# NOTE: unlike the other on_law_<something> on-actions, at the point in time
+# when this is triggered the law that was enacted is no longer considered being
+# enacted. Therefore using the `currently_enacting_law` link will return the
+# null law
+on_law_activated = {
+	# Note: this also seems to be called on creation of a game!
+	#  Probably because of laws being activated in history definitions.
+	effect = {
+		# The documentation is a lie: the scope of on_law_activated is 'none/all' (as seen in debugger).
+		#  So we call this for every country...
+		every_country = {
+			limit = {
+				exists = yes
+				country_rank > rank_value:decentralized_power 
+			}
+			# Using event because of scope issues I can't figure out
+			#  every_country seems to have none/all scope
+			trigger_event = {
+				id = ii_decentralization_events.1
+				days = 0
+			}
+		}
+	}
+}
+
+# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_independent = {
+	effect = {
+		# Added
+		scope:target ?= {
+			ii_country_setup = yes
+		}
+		# Original
+		if = {
+			limit = {
+				c:NEN ?= scope:target
+			}
+			scope:target ?= {
+				create_character = {
+					ig_leader = yes
+					interest_group = ig_rural_folk
+					ideology = ideology_luddite
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:target ?= {
+					country_has_primary_culture = cu:ashkenazi
+				}
+				NOT = {
+					s:STATE_PALESTINE = {
+						is_homeland = cu:ashkenazi
+					}
+				}
+			}
+			s:STATE_PALESTINE = {
+				add_homeland = cu:sephardic
+				add_homeland = cu:ashkenazi
+			}
+		}
+		if = {
+			limit = {
+				scope:target ?= {
+					OR = {
+						country_has_primary_culture = cu:afro_caribbean
+						country_has_primary_culture = cu:afro_antillean
+						country_has_primary_culture = cu:afro_american
+						country_has_primary_culture = cu:afro_caribeno
+						country_has_primary_culture = cu:afro_brazilian
+					}
+					OR = {
+						has_law = law_type:law_legacy_slavery
+						has_law = law_type:law_slave_trade
+					}
+				}
+			}
+			scope:target ?= {
+				trigger_event = { id = slave_revolt_events.1 days = 0 }
+			}
+		}
+	}
+}
+
+# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_own_subject = {
+	effect = {
+		# Added
+		scope:target ?= {
+			ii_country_setup = yes
+		}
+		# Original
+		if = {
+			limit = {
+				c:NEN ?= scope:target
+			}
+			scope:target ?= {
+				create_character = {
+					ig_leader = yes
+					interest_group = ig_rural_folk
+					ideology = ideology_luddite
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:target ?= {
+					country_has_primary_culture = cu:ashkenazi
+				}
+				NOT = {
+					s:STATE_PALESTINE = {
+						is_homeland = cu:ashkenazi
+					}
+				}
+			}
+			s:STATE_PALESTINE = {
+				add_homeland = cu:sephardic
+				add_homeland = cu:ashkenazi
+			}
+		}
+		scope:target ?= {
+			if = {
+				limit = {
+					country_has_state_religion = rel:theravada
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_theravada_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					exists = c:RUS
+					c:RUS = scope:target
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_russian_patriarch
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:orthodox
+					OR = {
+						NOT = { exists = c:RUS }
+						NOT = { c:RUS = scope:target }
+					}
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_orthodox_patriarch
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:hindu
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_hindu_priesthood
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_hindu_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:gelugpa
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_vajrayana_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:mahayana
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_mahayana_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:sikh
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_sikh_priesthood
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_sikh_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:oriental_orthodox
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_oriental_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_oriental_orthodox_patriarch
+				}
+			}
+		}
+	}
+}
+
+# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_overlord_subject = {
+	effect = {
+		# Added
+		scope:target ?= {
+			ii_country_setup = yes
+		}
+		# Original
+		if = {
+			limit = {
+				scope:target ?= {
+					country_has_primary_culture = cu:ashkenazi
+				}
+				NOT = {
+					s:STATE_PALESTINE = {
+						is_homeland = cu:ashkenazi
+					}
+				}
+			}
+			s:STATE_PALESTINE = {
+				add_homeland = cu:sephardic
+				add_homeland = cu:ashkenazi
+			}
+		}
+		scope:target ?= {
+			if = {
+				limit = {
+					country_has_state_religion = rel:theravada
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_theravada_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:orthodox
+					OR = {
+						NOT = { exists = c:RUS }
+						NOT = { c:RUS = scope:target }
+					}
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_orthodox_patriarch
+				}
+			}
+			if = {
+				limit = {
+					exists = c:RUS
+					c:RUS = scope:target
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_russian_patriarch
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:hindu
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_hindu_priesthood
+					remove_ideology = ideology_hindu_moralist
+					add_ideology = ideology_hindu_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:gelugpa
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_vajrayana_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:mahayana
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_mahayana_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:sikh
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_sikh_priesthood
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_sikh_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:oriental_orthodox
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_oriental_orthodox_church
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_oriental_orthodox_patriarch
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:confucian
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_confucian
+					remove_ideology = ideology_pious
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_confucian
+				}
+			}
+		}
+	}
+}
+
+# Root = Country
+on_country_formed = {
+	effect = {
+		# Added
+		scope:target ?= {
+			ii_country_setup = yes
+		}
+		# Original
+		if = {
+			limit = {
+				c:LAO ?= ROOT
+			}
+			trigger_event = { id = formation.1 popup = yes }
+		}
+        else_if = {
+			limit = {
+				c:PLT ?= THIS
+				was_formed_from = PRG
+				has_variable = patino_paraguay_var
+			}
+			add_primary_culture = cu:guarani
+		}
+		else_if = {
+			limit = {
+				c:UBD ?= ROOT
+			}
+			trigger_event = { id = formation.2 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:BYZ ?= ROOT
+			}
+			trigger_event = { id = formation.3 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:IBE ?= ROOT
+			}
+			trigger_event = { id = formation.5 popup = yes }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					c:BRZ ?= ROOT
+					c:USA ?= ROOT
+					c:SAF ?= ROOT
+				}
+			}
+			trigger_event = { id = formation.6 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:KUK ?= ROOT
+			}
+			trigger_event = { id = formation.7 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:ARA ?= ROOT
+			}
+			trigger_event = { id = formation.8 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:YUG ?= ROOT
+			}
+			trigger_event = { id = formation.9 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:SCA ?= ROOT
+			}
+			trigger_event = { id = formation.10 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:MAL ?= ROOT
+			}
+			trigger_event = { id = formation.11 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:TRH ?= ROOT
+			}
+			trigger_event = { id = formation.12 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:IDN ?= ROOT
+			}
+			trigger_event = { id = formation.13 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:BHT ?= ROOT
+			}
+			trigger_event = { id = formation.14 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:YEM ?= ROOT
+			}
+			trigger_event = { id = formation.15 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:KAZ ?= ROOT
+			}
+			trigger_event = { id = formation.16 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:HRE ?= ROOT
+			}
+			trigger_event = { id = formation.18 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:UNL ?= ROOT
+			}
+			trigger_event = { id = formation.19 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:RHN ?= ROOT
+			}
+			trigger_event = { id = formation.20 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:CLI ?= ROOT
+			}
+			trigger_event = { id = formation.21 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:GER ?= ROOT
+			}
+			trigger_event = { id = german_unification.4 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:ITA ?= ROOT
+			}
+			trigger_event = { id = italian_unification.1 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:AFG ?= ROOT
+				has_journal_entry = je_unify_afghanistan
+			}
+			if = {
+				limit = {
+					was_formed_from = KUN
+				}
+				add_primary_culture = cu:uzbek
+			}
+			if = {
+				limit = {
+					was_formed_from = MAI
+				}
+				add_primary_culture = cu:uzbek
+				add_primary_culture = cu:turkmen
+			}
+			if = {
+				limit = {
+					was_formed_from = KAF
+				}
+				add_primary_culture = cu:kho
+			}
+			trigger_event = { id = gg_afghanistan.4 popup = yes }
+		}
+		else_if = {
+			limit = {
+				c:FSA ?= ROOT
+			}
+			trigger_event = { id = fsa_events.1 popup = yes }
+		}
+		else = {
+			trigger_event = { id = formation.17 popup = yes }
+		}
+
+		if = {
+			limit = {
+				c:CHI ?= this
+				has_journal_entry = je_reunify_china
+			}
+			set_global_variable = { name = chinese_central_government value = ROOT }
+		}
+	}
+}
+
