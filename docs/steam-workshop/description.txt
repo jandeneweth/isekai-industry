@@ -1,0 +1,17 @@
+﻿[i]A wandering soul arrives in the middle ages. After solidifying a base of power, it is now influencing our nation. The world is accelerating towards the future... whatever that may bring.[/i]
+
+[h1]About[/h1]
+[hr][/hr]Start out in the familiar 1444 start date, at the tail end of the medieval period. Most technologies are unresearched, the world population is smaller, and governmental systems are still heavily decentralized. Through the influence of someone reborn into this world, you can jump-start your nation into the industrial era. The challenges you face will depend on the country you set your eye on.
+
+[h1]Compatibility[/h1]
+[hr][/hr]This mod largely builds on the [url=https://forum.paradoxplaza.com/forum/threads/eu4-to-vic3-converter-thread.1475054/]EU4 to Vic3 converter[/url], bringing on a lot of files including some patches to vanilla code.Furthermore, on_actions changes introduced by this mod are very important, and in Vic3 these cause incompatibilities very quickly.Other changes include minor modifications to laws, subject types, technologies and base modifiers to improve the flow of the early game.
+
+TL/DR: easily incompatible with other mods, GUI mods are probably fine
+
+[h1]Acknowledgements[/h1]
+[hr][/hr][list]
+  [*] The [url=https://forum.paradoxplaza.com/forum/threads/eu4-to-vic3-converter-thread.1475054/]EU4 to Vic3 converter[/url] tool, for providing a solid basis for the mod
+  [*] The [url=https://discord.com/invite/XJbqFbHdsM]Victoria 3 Mod Co-Op[/url] Discord community
+  [*] The [url=https://vic3.paradoxwikis.com/Victoria_3_Wiki]Victoria 3 Wiki[/url]
+  [*] The game Victoria 3 itself, for providing an enjoyable industrialisation simulator!
+[/list]
