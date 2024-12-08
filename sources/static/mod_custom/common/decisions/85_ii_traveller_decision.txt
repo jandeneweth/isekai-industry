@@ -1,14 +1,7 @@
 ﻿start_traveller_decision = {
     is_shown = {
         is_player = yes
-		custom_tooltip = {
-			text = ii_no_traveller_in_world_tt
-			NOT = {
-				any_country = {
-					has_variable = ii_has_traveller
-				}
-			}
-		}
+        year < 1446
     }
 
     possible = {
@@ -16,6 +9,7 @@
 			text = ii_didnt_have_traveller_tt
 			NOT = { has_variable = ii_had_traveller }
 		}
+        year < 1446
     }
 
     when_taken = {

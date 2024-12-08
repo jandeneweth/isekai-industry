@@ -3,6 +3,12 @@
 [h1]About[/h1]
 [hr][/hr]Start out in the familiar 1444 start date, at the tail end of the medieval period. Most technologies are unresearched, the world population is smaller, and governmental systems are still heavily decentralized. Through the influence of someone reborn into this world, you can jump-start your nation into the industrial era. The challenges you face will depend on the country you set your eye on.
 
+[h1]The Wandering Soul[/h1]
+[hr][/hr]The core feature of this mod is the "Wandering Soul". It can greatly boost your early game research, economy and legal reforms. At the same time, it is also fully optional, with the decision disappearing after 1446. This allows you to play a "medieval-like" game start.
+
+[h1]Multiplayer[/h1]
+[hr][/hr]Multiple player-led countries can have a wandering soul, which can make for some interesting multiplayer games! I haven't tested it yet myself, but I have no reason to doubt thatmultiplayer works.
+
 [h1]Compatibility[/h1]
 [hr][/hr]This mod largely builds on the [url=https://forum.paradoxplaza.com/forum/threads/eu4-to-vic3-converter-thread.1475054/]EU4 to Vic3 converter[/url], bringing on a lot of files including some patches to vanilla code.Furthermore, on_actions changes introduced by this mod are very important, and in Vic3 these cause incompatibilities very quickly.Other changes include minor modifications to laws, subject types, technologies and base modifiers to improve the flow of the early game.
 
