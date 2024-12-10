@@ -22,3 +22,27 @@
 		}
 	}
 }
+
+
+pm_anchorage = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		#workforce_scaled = {
+		#	building_employment_laborers_add = 500
+		#	building_employment_clerks_add = 350
+		#	building_employment_bureaucrats_add = 150
+		#}
+	}
+	
+	country_modifiers = {
+		#workforce_scaled = {
+		#	country_convoys_capacity_add = 20
+		#}
+		level_scaled = {
+			country_convoys_capacity_add = 5  # ADDED
+		}
+	}
+}	

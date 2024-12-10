@@ -1,0 +1,21 @@
+﻿# Adjust for tiny AI countries having super high literacy (and thus innovation => research)
+je_ii_tiny_nation_limiter = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_internal_affairs
+
+	weight = 5
+
+	is_shown_when_inactive = {
+		is_player = no
+		total_population < 10000
+	}
+
+	modifiers_while_active = {
+		ii_tiny_nation_limit_modifier
+	}
+
+	invalid = {
+		total_population > 15000
+	}
+}
