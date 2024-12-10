@@ -1,6 +1,10 @@
 ﻿start_traveller_decision = {
     is_shown = {
         is_player = yes
+        custom_tooltip = {
+			text = ii_didnt_have_traveller_tt
+			NOT = { has_variable = ii_had_traveller }
+		}
         year < 1446
     }
 
