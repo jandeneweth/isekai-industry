@@ -45,7 +45,7 @@ base_values = {
 	state_unincorporated_starting_wages_mult = -0.20
 	building_unincorporated_subsistence_output_mult = -0.20
 		
-	country_construction_add = 10
+	country_construction_add = 0  # CHANGED
 	
 	building_mobilization_cost_mult = 0.6
 	
@@ -65,6 +65,10 @@ base_values = {
 	state_urbanization_per_level_add = 100
 	
 	unit_experience_gain_add = 0.5
+}
+
+incorporated_state = {
+	country_construction_add = 1
 }
 
 
