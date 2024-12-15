@@ -5,6 +5,13 @@ modifier_decentralization = {
     state_bureaucracy_population_base_cost_factor_mult = -0.01
     state_tax_waste_add = 0.009
     state_construction_mult = -0.005
+
+    # Note: cancels out the contribution from base modifiers at 100x
+	state_farmers_investment_pool_contribution_add = 0.001
+	state_shopkeepers_investment_pool_contribution_add = 0.002
+	state_clergymen_investment_pool_contribution_add = 0.002
+	state_aristocrats_investment_pool_contribution_add = 0.002
+	state_capitalists_investment_pool_contribution_add = 0.003
 }
 
 # Note: This modifier will decay
@@ -13,9 +20,9 @@ modifier_medieval_society = {
 	
     country_tech_spread_mult = -0.5
 
-    state_aristocrats_investment_pool_efficiency_mult = -0.9
-    state_capitalists_investment_pool_efficiency_mult = -0.9
-    state_farmers_investment_pool_efficiency_mult = -0.9
-    state_clergymen_investment_pool_efficiency_mult = -0.9
-    state_shopkeepers_investment_pool_efficiency_mult = -0.9
+    state_aristocrats_investment_pool_efficiency_mult = -1.0
+    state_capitalists_investment_pool_efficiency_mult = -1.0
+    state_farmers_investment_pool_efficiency_mult = -1.0
+    state_clergymen_investment_pool_efficiency_mult = -1.0
+    state_shopkeepers_investment_pool_efficiency_mult = -1.0
 }
