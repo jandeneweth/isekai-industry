@@ -38,15 +38,6 @@
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_autocracy
-			}
-			add = {
-				desc = "decentralization_progress_autocracy"
-				value = 0
-			}
-		}
-		if = {
-			limit = {
 				has_law = law_type:law_elder_council
 			}
 			add = {
@@ -110,24 +101,6 @@
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_monarchy
-			}
-			add = {
-				desc = "decentralization_progress_monarchy"
-				value = 0
-			}
-		}
-		if = {
-			limit = {
-				has_law = law_type:law_theocracy
-			}
-			add = {
-				desc = "decentralization_progress_theocracy"
-				value = 0
-			}
-		}
-		if = {
-			limit = {
 				has_law = law_type:law_serfdom
 			}
 			add = {
@@ -146,10 +119,10 @@
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_closed_borders
+				has_law = law_type:law_local_regulations
 			}
 			add = {
-				desc = "decentralization_progress_closed_borders"
+				desc = "decentralization_progress_local_regulations"
 				value = 0
 			}
 		}

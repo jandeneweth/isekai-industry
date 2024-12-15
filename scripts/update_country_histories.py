@@ -46,6 +46,7 @@ PATTENR_REPLACEMENT_LIST = [
     (re.compile("law_type:law_parliamentary_republic"), "law_type:law_presidential_republic"),
     (re.compile("law_type:law_council_republic"), "law_type:law_presidential_republic"),
 
+    (re.compile("law_type:law_autocracy"), "law_type:law_oligarchy"),
     (re.compile("law_type:law_landed_voting"), "law_type:law_oligarchy"),
     (re.compile("law_type:law_wealth_voting"), "law_type:law_oligarchy"),
     (re.compile("law_type:law_census_voting"), "law_type:law_oligarchy"),
@@ -97,9 +98,13 @@ PATTENR_REPLACEMENT_LIST = [
 
     # Human Rights
 
-    (re.compile("law_type:law_outlowed_dissent"), "law_type:law_right_of_assembly"),
+    (re.compile("law_type:law_outlawed_dissent"), "law_type:law_right_of_assembly"),
     (re.compile("law_type:law_censorship"), "law_type:law_right_of_assembly"),
     (re.compile("law_type:law_protected_speech"), "law_type:law_right_of_assembly"),
+
+    (re.compile("law_type:law_no_migration_controls"), "law_type:law_local_regulations"),
+    (re.compile("law_type:law_migration_controls"), "law_type:law_local_regulations"),
+    (re.compile("law_type:law_closed_borders"), "law_type:law_local_regulations"),
 ]
 
 def _replace_line(line: str) -> str:

@@ -37,7 +37,6 @@ decentralization_score = {
     if = {
         limit = {
             OR = {
-                has_law = law_type:law_autocracy
                 has_law = law_type:law_elder_council
             }
         }
@@ -78,8 +77,6 @@ decentralization_score = {
         limit = {
             OR = {
                 has_law = law_type:law_chiefdom
-                has_law = law_type:law_monarchy
-                has_law = law_type:law_theocracy
             }
         }
         add = 10
@@ -107,7 +104,7 @@ decentralization_score = {
     if = {
         limit = {
             OR = {
-                has_law = law_type:law_closed_borders
+                has_law = law_type:law_local_regulations
             }
         }
         add = 10
@@ -150,4 +147,7 @@ decentralization_score = {
         }
         add = 5
     }
+
+    min = 0
+    max = 100
 }
