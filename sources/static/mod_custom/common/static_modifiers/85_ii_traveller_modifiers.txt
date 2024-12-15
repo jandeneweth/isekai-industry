@@ -15,7 +15,9 @@ ii_traveller_tech_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
     state_education_access_add = 0.10
     state_education_access_wealth_add = 0.005
-    state_pop_qualifications_mult = 1.0
+    state_pop_qualifications_mult = 0.5
+	country_weekly_innovation_add = 10
+    country_weekly_innovation_max_add = 10
 }
 
 ii_traveller_law_modifier = {
