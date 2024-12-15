@@ -59,8 +59,18 @@
 			# Advance Conditions
 			if = {
 				limit = {
+					# Your GDP per Capita is relatively high
+					gdp_per_capita_ranking <= 20
+				}
+				change_variable = {
+					name = recognition_progress_var
+					add = 1
+				}
+			}
+			if = {
+				limit = {
 					# Your Standard of Living is relatively high
-					average_sol >= 15
+					sol_ranking <= 20
 				}
 				change_variable = {
 					name = recognition_progress_var
@@ -122,8 +132,28 @@
 			}
 			if = {
 				limit = {
+					# Your GDP per Capita is relatively low
+					gdp_per_capita_ranking >= 50
+				}
+				change_variable = {
+					name = recognition_progress_var
+					add = -1
+				}
+			}
+			if = {
+				limit = {
 					# Your Standard of Living is relatively low
-					average_sol <= 12
+					sol_ranking >= 50
+				}
+				change_variable = {
+					name = recognition_progress_var
+					add = -1
+				}
+			}
+			if = {
+				limit = {
+					# Your country is relatively insignificant
+					global_country_ranking >= 60
 				}
 				change_variable = {
 					name = recognition_progress_var
