@@ -11,7 +11,7 @@
 	modifier = {
 		state_migration_pull_mult = -0.9
 		state_migration_push_mult = -0.9
-		country_mass_migration_attraction_mult = -1.0
+		country_mass_migration_attraction_mult = -2.0
 	}	
 
 	ai_enact_weight_modifier = { #Petitions
