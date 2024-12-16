@@ -92,7 +92,7 @@ law_closed_borders = {
 	progressiveness = -50
 	
 	unlocking_technologies = {
-		tech_bureacracy  # ADDED
+		tech_bureaucracy  # ADDED
 	}
 
 	on_enact = {
