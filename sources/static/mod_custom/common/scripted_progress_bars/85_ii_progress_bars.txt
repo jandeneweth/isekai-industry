@@ -155,15 +155,6 @@
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
-			}
-			add = {
-				desc = "decentralization_progress_isolationism"
-				value = 0
-			}
-		}
-		if = {
-			limit = {
 				has_law = law_type:law_city_tolls
 			}
 			add = {

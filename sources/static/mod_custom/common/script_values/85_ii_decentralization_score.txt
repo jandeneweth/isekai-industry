@@ -38,6 +38,7 @@ decentralization_score = {
         limit = {
             OR = {
                 has_law = law_type:law_elder_council
+                has_law = law_type:law_oligarchy
             }
         }
         add = 10
@@ -45,7 +46,6 @@ decentralization_score = {
     else_if = {
         limit = {
             OR = {
-                has_law = law_type:law_oligarchy
                 has_law = law_type:law_landed_voting
             }
         }
@@ -133,7 +133,6 @@ decentralization_score = {
     if = {
         limit = {
             OR = {
-                has_law = law_type:law_isolationism
                 has_law = law_type:law_city_tolls
             }
         }
