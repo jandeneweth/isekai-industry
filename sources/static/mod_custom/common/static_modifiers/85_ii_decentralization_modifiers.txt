@@ -7,8 +7,8 @@ modifier_decentralization = {
     state_construction_mult = -0.005
 
     # Note: cancels out the contribution from base modifiers at 100x
-	state_farmers_investment_pool_contribution_add = -0.001
-	state_shopkeepers_investment_pool_contribution_add = -0.002
+	state_farmers_investment_pool_contribution_add = -0.0005
+	state_shopkeepers_investment_pool_contribution_add = -0.0005
 	state_clergymen_investment_pool_contribution_add = -0.002
 	state_aristocrats_investment_pool_contribution_add = -0.002
 	state_capitalists_investment_pool_contribution_add = -0.003
