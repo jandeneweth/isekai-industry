@@ -10,9 +10,9 @@
 [hr][/hr]Multiple player-led countries can have a wandering soul, which can make for some interesting multiplayer games! I haven't tested it yet myself, but I have no reason to doubt thatmultiplayer works.
 
 [h1]Compatibility[/h1]
-[hr][/hr]This mod largely builds on the [url=https://forum.paradoxplaza.com/forum/threads/eu4-to-vic3-converter-thread.1475054/]EU4 to Vic3 converter[/url], bringing on a lot of files including some patches to vanilla code.Furthermore, on_actions changes introduced by this mod are very important, and in Vic3 these cause incompatibilities very quickly.Other changes include minor modifications to laws, subject types, technologies and base modifiers to improve the flow of the early game.
+[hr][/hr]This mod largely builds on the [url=https://forum.paradoxplaza.com/forum/threads/eu4-to-vic3-converter-thread.1475054/]EU4 to Vic3 converter[/url], bringing on a lot of files including some patches to vanilla code. The mod also changes a lot of small stuff here and there for balance reasons, like laws, subject types, technologies and base modifiers. So while some other mods may not be breaking, they may disrupt the balance in unexpected ways by overwriting those changes.
 
-TL/DR: easily incompatible with other mods, GUI mods are probably fine
+TL/DR: Might suffer non-fatal breakage with other mods, especially regarding balance, GUI mods are probably fine
 
 [h1]Acknowledgements[/h1]
 [hr][/hr][list]
