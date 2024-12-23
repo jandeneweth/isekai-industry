@@ -1,0 +1,30 @@
+﻿# Custom on_actions, called by 'real' ones via added 'on_actions' blocks
+
+ii_on_law_activated = {
+	# Note: this also seems to be called on creation of a game!
+	#  Probably because of laws being activated in history definitions.
+	effect = {
+		# The documentation is a lie: the scope of on_law_activated is 'none/all' (as seen in debugger).
+		#  So we actually call this for every country...
+		every_country = {
+			limit = {
+				exists = yes
+				country_rank > rank_value:decentralized_power 
+			}
+			# Using event because of scope issues I can't figure out
+			#  every_country seems to have none/all scope
+			trigger_event = {
+				id = ii_decentralization_events.1
+				days = 0
+			}
+		}
+	}
+}
+
+ii_on_country_introduced_to_game = {
+	effect = {
+		scope:target ?= {
+			ii_country_setup = yes
+		}
+	}
+}

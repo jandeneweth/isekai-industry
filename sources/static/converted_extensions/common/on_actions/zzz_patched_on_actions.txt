@@ -1,4 +1,0 @@
-﻿# This file overwrote "on_law_activated"
-#  It interfered with our custom effect code (latest overrides effect for on_actions... contrary to e.g. more recent EU4)
-#  Also, it didn't really seem to fix much... if anything? Just fixed a "=" existance checking for scope, made it "?=".
-#  Not even sure it is even needed for us. Needed for BRZ (Brazil), doesn't and probably will never exist in this mod.

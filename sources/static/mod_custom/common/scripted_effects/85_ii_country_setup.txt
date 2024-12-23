@@ -2,7 +2,7 @@
     # Medieval society decaying modifier
     add_modifier = { 
         name = modifier_medieval_society
-        years = 50
+        years = 50  # Note: this should be lower based on the number of years since start... still need to figure that out
         is_decaying = yes
     }
     # Add the decentralization journal
